@@ -2,7 +2,7 @@ Hello world
 ###########
 :date: 2019-01-22 19:27:17
 :author: Manas Mangaonkar
-:category: Misc
+:category: Community
 :tags: Blog
 :slug: hello-world
 :summary:  Hello World!
