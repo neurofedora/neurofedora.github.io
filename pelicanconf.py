@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'neurofedora'
-SITENAME = 'neurofedora blog'
+AUTHOR = 'NeuroFedora'
+SITENAME = 'NeuroFedora Blog'
 SITEURL = ''
 
 PATH = 'content'
@@ -11,6 +11,9 @@ PATH = 'content'
 TIMEZONE = 'Europe/London'
 
 DEFAULT_LANG = 'en'
+
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['tag_cloud', 'share_post']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -20,10 +23,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('NeuroFedora documentation', 'https://neuro.fedoraproject.org'),
+         ('Fedora project', 'https://getfedora.org')
+         )
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -34,7 +36,25 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-FEED_ALL_RSS = 'feeds/all.rss.xml'
-AUTHOR_FEED_RSS = 'feeds/%s.rss.xml'
-RSS_FEED_SUMMARY_ONLY = False
+# Static index page
+INDEX_SAVE_AS = 'blog_index.html'
+
+# Slugs for tags and so on
+TAG_URL = 'tag/{slug}/'
+TAG_SAVE_AS = 'tag/{slug}/index.html'
+CATEGORY_URL = 'category/{slug}/'
+CATEGORY_SAVE_AS = 'category/{slug}/index.html'
+
+# Settings for article paths
+ARTICLE_PATHS = ['']
+ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
+ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
+
+ARCHIVES_SAVE_AS = 'archives.html'
+YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/index.html'
+
+TAG_CLOUD_STEPS = 6
+TAG_CLOUD_MAX_ITEMS = 30
+TAG_CLOUD_SORTING = 'random'
+
