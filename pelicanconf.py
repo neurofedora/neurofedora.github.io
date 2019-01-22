@@ -17,10 +17,10 @@ PLUGINS = ['tag_cloud', 'share_post']
 
 # Theme
 THEME = "theme-nice-blog"
-THEME_COLOR = "navy"
+THEME_COLOR = "green"
 LOGO = "NeuroFedoraLogo01.png"
 SIDEBAR_DISPLAY = ['about', 'categories', 'tags']
-COPYRIGHT = "Fedora project"
+COPYRIGHT = '<a href="https://fedoraproject.org" target="_blank">Fedora project contributors</a>'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -33,6 +33,9 @@ AUTHOR_FEED_RSS = None
 MENUITEMS = (('News', '/blog_index.html'),
              ('Documentation', 'https://neuro.fedoraproject.org'),
              ('Fedora project', 'https://getfedora.org'),
+             ('Archives', '/archives.html'),
+             ('Tags', '/tags.html'),
+             ('Categories', '/categories.html'),
              )
 
 # Social widget
