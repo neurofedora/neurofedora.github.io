@@ -18,7 +18,6 @@ FEED_DOMAIN = SITEURL
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/categories/{slug}.atom.xml'
 TAG_FEED_ATOM = 'feeds/tags/{slug}.atom.xml'
-AUTHOR_FEED_ATOM = 'feeds/authors/{slug}.atom.xml'
 FEED_MAX_ITEMS = 30
 
 DELETE_OUTPUT_DIRECTORY = True

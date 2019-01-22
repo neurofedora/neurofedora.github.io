@@ -27,7 +27,6 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
 
 # Blogroll
 MENUITEMS = (('News', '/blog_index.html'),
@@ -39,8 +38,13 @@ MENUITEMS = (('News', '/blog_index.html'),
              )
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ('Mailing list', 'https://lists.fedoraproject.org/admin/lists/neuro-sig@lists.fedoraproject.org/'),
+    ('IRC', 'https://webchat.freenode.net/?channels=#fedora-neuro'),
+    ('Telegram', 'https://t.me/NeuroFedora'),
+    ('Pagure', 'https://pagure.io/neuro-sig/NeuroFedora'),
+    ('Github', 'https://github.com/neurofedora'),
+)
 
 DEFAULT_PAGINATION = 10
 
