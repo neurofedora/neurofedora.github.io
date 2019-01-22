@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'NeuroFedora'
-SITENAME = 'NeuroFedora Blog'
+SITENAME = 'The NeuroFedora Blog'
 SITEURL = ''
 
 PATH = 'content'
@@ -15,6 +15,13 @@ DEFAULT_LANG = 'en'
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['tag_cloud', 'share_post']
 
+# Theme
+THEME = "theme-nice-blog"
+THEME_COLOR = "navy"
+LOGO = "NeuroFedoraLogo01.png"
+SIDEBAR_DISPLAY = ['about', 'categories', 'tags']
+COPYRIGHT = "Fedora project"
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -23,9 +30,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('NeuroFedora documentation', 'https://neuro.fedoraproject.org'),
-         ('Fedora project', 'https://getfedora.org')
-         )
+MENUITEMS = (('News', '/blog_index.html'),
+             ('Documentation', 'https://neuro.fedoraproject.org'),
+             ('Fedora project', 'https://getfedora.org'),
+             )
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -58,3 +66,4 @@ TAG_CLOUD_STEPS = 6
 TAG_CLOUD_MAX_ITEMS = 30
 TAG_CLOUD_SORTING = 'random'
 
+DELETE_OUTPUT_DIRECTORY = True

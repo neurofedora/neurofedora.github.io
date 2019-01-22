@@ -1,3 +1,6 @@
 [submodule "pelican-plugins"]
 	path = pelican-plugins
 	url = https://github.com/getpelican/pelican-plugins.git
+[submodule "theme-nice-blog"]
+	path = theme-nice-blog
+	url = https://github.com/guilherme-toti/nice-blog.git
