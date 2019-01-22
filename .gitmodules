@@ -1,3 +1,6 @@
 [submodule "pelican-plugins"]
 	path = pelican-plugins
 	url = https://github.com/getpelican/pelican-plugins.git
+[submodule "pelican-semantic-ui"]
+	path = pelican-semantic-ui
+	url = https://github.com/ellisonleao/pelican-semantic-ui.git
