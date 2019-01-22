@@ -14,3 +14,8 @@ installed using :code:`pip` in a virtual-environment.
 
 - `Pelican <https://pypi.org/project/pelican/>`__
 - `ghp-import <https://pypi.org/project/ghp-import/>`__
+
+The `pelican-plugins repository
+<https://github.com/getpelican/pelican-plugins/>`__ as used here as a
+submodule. A recursive clone will be needed to ensure that it is also checked
+out.
