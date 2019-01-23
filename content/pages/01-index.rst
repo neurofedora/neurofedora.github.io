@@ -19,10 +19,10 @@
    </br>
 
 Welcome to the NeuroFedora blog. NeuroFedora is an initiative to provide a
-ready to use Fedora based `Free/Open source
-<https://www.fsf.org/about/what-is-free-software>`__ software platform for
-neuroscience. We believe that similar to Free software, science should be free
-for all to use, share, modify, and study. The use of Free software also aids
+ready to use Fedora based `Free/Open Source
+<https://www.fsf.org/about/what-is-free-software>`__ Software platform for
+neuroscience. We believe that similar to Free Software, science should be free
+for all to use, share, modify, and study. The use of Free Software also aids
 reproducibility, data sharing, and collaboration in the research community. By
 making the tools used in the scientific process easier to use, NeuroFedora aims
 to take a step to enable this ideal.
