@@ -10,7 +10,7 @@
 
 .. figure:: {static}/images/NeuroFedoraLogo01.png
     :alt: NeuroFedora Logo
-    :target: {static}/images/NeuroFedoraLogo01.png
+    :target: #
     :width: 10%
 
 .. raw:: html
