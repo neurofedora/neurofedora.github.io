@@ -1,7 +1,7 @@
 NeuroFedora update: 2019 week 4
 ###############################
 :date: 2019-01-27 14:09:10
-:author: NeuroFedora
+:author: Ankur Sinha
 :category: News
 :tags: Software, Blog
 :slug: neurofedora-update-2019-week-4
