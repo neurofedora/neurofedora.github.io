@@ -74,3 +74,13 @@ TAG_CLOUD_MAX_ITEMS = 30
 TAG_CLOUD_SORTING = 'random'
 
 DELETE_OUTPUT_DIRECTORY = True
+
+# Favicon etc.
+STATIC_PATHS = [
+    'images',
+    'extra',
+]
+
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}
