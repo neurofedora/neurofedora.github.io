@@ -29,7 +29,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 
 # Blogroll
-MENUITEMS = (('News', '/blog_index.html'),
+MENUITEMS = (('Posts', '/blog_index.html'),
              ('Documentation', 'https://neuro.fedoraproject.org'),
              ('Fedora project', 'https://getfedora.org'),
              ('Archives', '/archives.html'),
