@@ -16,9 +16,9 @@ RELATIVE_URLS = False
 
 FEED_DOMAIN = SITEURL
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/categories/{slug}.atom.xml'
-TAG_FEED_ATOM = 'feeds/tags/{slug}.atom.xml'
 FEED_MAX_ITEMS = 30
+#  CATEGORY_FEED_ATOM = 'feeds/categories/{slug}.atom.xml'
+#  TAG_FEED_ATOM = 'feeds/tags/{slug}.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 

@@ -1,6 +1,6 @@
 [submodule "pelican-plugins"]
 	path = pelican-plugins
 	url = https://github.com/getpelican/pelican-plugins.git
-[submodule "theme-nice-blog"]
-	path = theme-nice-blog
-	url = git@github.com:neurofedora/nice-blog.git
+[submodule "theme-alchemy"]
+	path = theme-alchemy
+	url = git@github.com:neurofedora/pelican-alchemy.git

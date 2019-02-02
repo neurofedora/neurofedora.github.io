@@ -3,7 +3,9 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'NeuroFedora'
-SITENAME = 'The NeuroFedora Blog'
+SITENAME = 'NeuroFedora: Blog'
+DESCRIPTION = "Free Software for Free Neuroscience"
+SITESUBTITLE = "Free Software for Free Neuroscience"
 SITEURL = ''
 
 PATH = 'content'
@@ -16,11 +18,8 @@ PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['tag_cloud', 'share_post']
 
 # Theme
-THEME = "theme-nice-blog"
-THEME_COLOR = "green"
-LOGO = "NeuroFedoraLogo01.png"
-SIDEBAR_DISPLAY = ['about', 'categories', 'tags']
-COPYRIGHT = '<a href="https://fedoraproject.org" target="_blank">Fedora project contributors</a>'
+THEME = "theme-alchemy/alchemy"
+SITEIMAGE = "/NeuroFedoraLogo01-title.png"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -29,21 +28,19 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 
 # Blogroll
-MENUITEMS = (('Posts', '/blog_index.html'),
-             ('Documentation', 'https://neuro.fedoraproject.org'),
-             ('Fedora project', 'https://getfedora.org'),
-             ('Archives', '/archives.html'),
-             ('Tags', '/tags.html'),
-             ('Categories', '/categories.html'),
-             )
+LINKS = (('Posts', '/blog_index.html'),
+         ('Documentation', 'https://neuro.fedoraproject.org'),
+         )
 
 # Social widget
-SOCIAL = (
-    ('Mailing list', 'https://lists.fedoraproject.org/admin/lists/neuro-sig@lists.fedoraproject.org/'),
-    ('IRC', 'https://webchat.freenode.net/?channels=#fedora-neuro'),
-    ('Telegram', 'https://t.me/NeuroFedora'),
-    ('Pagure', 'https://pagure.io/neuro-sig/NeuroFedora'),
-    ('Github', 'https://github.com/neurofedora'),
+ICONS = (
+    ('fas fa-mail-bulk', 'https://lists.fedoraproject.org/admin/lists/neuro-sig@lists.fedoraproject.org/'),
+    ('fas fa-comments', 'https://webchat.freenode.net/?channels=#fedora-neuro'),
+    ('fab fa-telegram', 'https://t.me/NeuroFedora'),
+    ('fas fa-code-branch', 'https://pagure.io/neuro-sig/NeuroFedora'),
+    ('fab fa-github', 'https://github.com/neurofedora'),
+    ('fab fa-fedora', 'https://getfedora.org'),
+    ('fas fa-rss', '/feeds/all.atom.xml'),
 )
 
 DEFAULT_PAGINATION = 10
@@ -82,5 +79,6 @@ STATIC_PATHS = [
 ]
 
 EXTRA_PATH_METADATA = {
-    'extra/favicon.ico': {'path': 'favicon.ico'}
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/NeuroFedoraLogo01-title.png': {'path': 'NeuroFedoraLogo01-title.png'}
 }
