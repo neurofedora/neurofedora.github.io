@@ -1,0 +1,14 @@
+.. raw:: html
+
+   <center>
+
+.. figure:: {static}/images/NeuroFedoraLogo01.png
+    :alt: NeuroFedora logo
+    :width: 30%
+    :class: img-responsive
+
+    `NeuroFedora logo by Terezahl from the Fedora Design Team <https://pagure.io/design/issue/602>`__
+
+.. raw:: html
+
+   </center>
