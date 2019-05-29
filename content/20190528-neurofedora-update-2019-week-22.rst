@@ -9,22 +9,7 @@ NeuroFedora update: 2019 week 22
           updates.
 
 
-.. raw:: html
-
-   <center>
-
-.. figure:: {static}/images/NeuroFedoraLogo01.png
-    :alt: NeuroFedora logo
-    :width: 30%
-    :class: img-responsive
-
-    `NeuroFedora logo by Terezahl from the Fedora Design Team <https://pagure.io/design/issue/602>`__
-
-.. raw:: html
-
-   </center>
-
-
+.. include:: logo.txt
 
 An update on what we have been up to at NeuroFedora_ is long `overdue
 <https://pagure.io/neuro-sig/NeuroFedora/issue/232>`__!
@@ -63,14 +48,6 @@ As I write this post, the newest version of `VXL
 <https://src.fedoraproject.org/rpms/vxl>`__ is building on the system. This
 took quite a bit of work to update but that is a story for another day :)
 
----------
-
-NeuroFedora_ is volunteer driven initiative and contributions in any form always
-welcome.  You can get in touch with us `here
-<https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help>`__.
-We are happy to help you learn the skills needed to contribute to the project.
-In fact, that is one of the major goals of the initiative---to spread technical
-knowledge that is necessary to develop software for Neuroscience.
-
+.. include:: footer.txt
 
 .. _NeuroFedora: https://neuro.fedoraproject.org

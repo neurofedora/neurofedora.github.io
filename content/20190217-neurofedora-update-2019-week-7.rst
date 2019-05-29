@@ -8,20 +8,8 @@ NeuroFedora update: 2019 week 7
 :summary: An update on NeuroFedora_ in the 7th week of 2019: more software
           updates.
 
-.. raw:: html
-
-   <center>
-
-.. figure:: {static}/images/NeuroFedoraLogo01.png
-    :alt: NeuroFedora logo
-    :width: 30%
-    :class: img-responsive
-
-    `NeuroFedora logo by Terezahl from the Fedora Design Team <https://pagure.io/design/issue/602>`__
-
-.. raw:: html
-
-   </center>
+          
+.. include:: logo.txt
 
 
 We continue to make progress on software that is to be included in
@@ -58,15 +46,7 @@ In other news, `PyNN is being considered as an INCF standard/best practice
 <https://groups.google.com/forum/#!topic/neuralensemble/a4xnnPQ7dpM>`__. If you
 do use it, please provide your comments.
 
----------
-
-NeuroFedora_ is volunteer driven initiative and contributions in any form always
-welcome.  You can get in touch with us `here
-<https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help>`__.
-We are happy to help you learn the skills needed to contribute to the project.
-In fact, that is one of the major goals of the initiative---to spread technical
-knowledge that is necessary to develop software for Neuroscience.
-
+.. include:: footer.txt
 
 .. _NeuroFedora: https://neuro.fedoraproject.org
 .. _neuron: https://src.fedoraproject.org/rpms/neuron

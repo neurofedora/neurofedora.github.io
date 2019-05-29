@@ -10,21 +10,7 @@ NeuroFedora update: 2019 week 13
           updates, future plans, next team meeting.
 
 
-.. raw:: html
-
-   <center>
-
-.. figure:: {static}/images/NeuroFedoraLogo01.png
-    :alt: NeuroFedora logo
-    :width: 30%
-    :class: img-responsive
-
-    `NeuroFedora logo by Terezahl from the Fedora Design Team <https://pagure.io/design/issue/602>`__
-
-.. raw:: html
-
-   </center>
-
+.. include:: logo.txt
 
 More software has been submitted for review and included in NeuroFedora_. We
 keep making steady progress on that front. Please keep an eye on our
@@ -69,14 +55,7 @@ The meeting will be held on our `IRC/Telegram channel
 <https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help>`__.
 It is open for all to attend. Please pop by!
 
----------
-
-NeuroFedora_ is volunteer driven initiative and contributions in any form always
-welcome.  You can get in touch with us `here
-<https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help>`__.
-We are happy to help you learn the skills needed to contribute to the project.
-In fact, that is one of the major goals of the initiative---to spread technical
-knowledge that is necessary to develop software for Neuroscience.
+.. include:: footer.txt
 
 
 .. _NeuroFedora: https://neuro.fedoraproject.org

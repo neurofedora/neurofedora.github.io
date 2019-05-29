@@ -9,6 +9,9 @@ How NeuroFedora provides software to its users
 :summary: This post summarises the process that the NeuroFedora_ package
           maintainers follow to keep the software set up to date.
 
+
+.. include:: logo.txt
+
 Given the large chunk of updates that we published recently, we thought this is
 a good chance to explain how the NeuroFedora_ team stays on top of all of this
 software that is constantly being updated and improved.
@@ -83,15 +86,8 @@ this is where we humans come in.
     from the staging repositories to the *stable* repositories where they are
     available to all users.
 
----------
 
-NeuroFedora_ is volunteer driven initiative and contributions in any form always
-welcome.  You can get in touch with us `here
-<https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help>`__.
-We are happy to help you learn the skills needed to contribute to the project.
-In fact, that is one of the major goals of the initiative---to spread technical
-knowledge that is necessary to develop software for Neuroscience.
-
+.. include:: footer.txt
 
 .. _NeuroFedora: https://neuro.fedoraproject.org
 .. _CNS*2019: https://www.cnsorg.org/cns-2019-quick
