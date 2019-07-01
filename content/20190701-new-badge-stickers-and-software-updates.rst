@@ -31,10 +31,9 @@ This post departs from the usual template, mainly because we have new artwork
 to show off and so will, for once, not use the logo in this post.
 
 I had only half jokingly suggested a "terminator panda" to give the badge a bit
-of a fun feel and was very pleasantly surprised when tanvi_ came up with a
-concept art! After an iteration or two, the blackfile_'s concept that included
-the logo was merged with the panda terminator to give us the final one that's
-shown here.
+of a fun and was very pleasantly surprised when tanvi_ came up with a concept
+art! After an iteration or two, blackfile_'s concept that included the logo was
+merged with the panda terminator to give us the final one that's shown here.
 
 For those who may not be aware, "`Fedora badges`_ is a fun website built to
 recognize contributors to the Fedora Project, help new and existing Fedora
