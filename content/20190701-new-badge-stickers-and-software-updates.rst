@@ -1,7 +1,7 @@
 New badge, stickers, and software updates
 #########################################
 :date: 2019-07-01 10:39:11
-:author: NeuroFedora
+:author: Ankur Sinha
 :category: News
 :tags: Fedora badges, Stickermule, GENESIS, Python, Elephant, Neurosynth,
        PyLaTeX
