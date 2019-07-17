@@ -1,6 +1,6 @@
 NEURON in NeuroFedora needs testing
 ###################################
-:date: 2019-07-16 15:08:21
+:date: 2019-07-17 08:52:51
 :author: Ankur Sinha
 :category: News
 :tags: NEURON, Quality Assurance, Bodhi
