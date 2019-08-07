@@ -1,11 +1,11 @@
 Open Position: NeuroFedora is looking for a Spin/Lab master
 ###########################################################
 :date: 2019-08-07 20:29:22
-:author: NeuroFedora
+:author: Ankur Sinha
 :category: Community
-:tags: Fedora Spin, Computational Neuroscience
+:tags: Fedora Spin, Fedora Lab, Remix
 :slug: open-position-neurofedora-is-looking-for-a-spin-lab-master
-:summary: NeuroFedora_ is looking for a Spin/Lab master to manage a new installable ISO! Join us!
+:summary: NeuroFedora_ is looking for a Spin/Lab master to help us provide an installable image.
 
 .. include:: logo.txt
 
