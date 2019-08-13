@@ -1,7 +1,7 @@
 NEST 2.18.0 (and 2.16.0) are ready for use on NeuroFedora
 ##########################################################
 :date: 2019-08-13 09:27:17
-:author: A: kur Sinha
+:author: Ankur Sinha
 :category: News
 :tags: NEST, Computational Modelling, Modularity
 :slug: nest-2-18-0-and-2-16-0-are-ready-for-use-on-neurofedora
