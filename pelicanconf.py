@@ -34,14 +34,24 @@ LINKS = (('Posts', '/blog_index.html'),
 
 # Social widget
 ICONS = (
-    ('fas fa-mail-bulk', 'https://lists.fedoraproject.org/admin/lists/neuro-sig@lists.fedoraproject.org/'),
-    ('fas fa-comments', 'https://webchat.freenode.net/?channels=#fedora-neuro'),
-    ('fab fa-telegram', 'https://t.me/NeuroFedora'),
-    ('fas fa-code-branch', 'https://pagure.io/neuro-sig/NeuroFedora'),
-    ('fab fa-github', 'https://github.com/neurofedora'),
-    ('fas fa-bug', 'https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&email1=neuro-sig%40lists.fedoraproject.org&emailassigned_to1=1&emailcc1=1&emaildocs_contact1=1&emaillongdesc1=1&emailqa_contact1=1&emailreporter1=1&emailtype1=substring&query_format=advanced'),
-    ('fab fa-fedora', 'https://getfedora.org'),
-    ('fas fa-rss', '/feeds/all.atom.xml'),
+    ('fas fa-mail-bulk',
+     'https://lists.fedoraproject.org/admin/lists/neuro-sig@lists.fedoraproject.org/',
+     'Mailing list'),
+    ('fas fa-comments', 'https://webchat.freenode.net/?channels=#fedora-neuro',
+     "Chat"),
+    ('fab fa-telegram', 'https://t.me/NeuroFedora',
+     "Telegram"),
+    ('fas fa-code-branch', 'https://pagure.io/neuro-sig/NeuroFedora',
+     "Tickets"),
+    ('fab fa-github', 'https://github.com/neurofedora',
+     "Github"),
+    ('fas fa-bug',
+     'https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&email1=neuro-sig%40lists.fedoraproject.org&emailassigned_to1=1&emailcc1=1&emaildocs_contact1=1&emaillongdesc1=1&emailqa_contact1=1&emailreporter1=1&emailtype1=substring&query_format=advanced',
+     "Bugs"),
+    ('fab fa-fedora', 'https://getfedora.org',
+     "Get Fedora!"),
+    ('fas fa-rss', '/feeds/all.atom.xml',
+     "RSS feeds"),
 )
 
 DEFAULT_PAGINATION = 10
