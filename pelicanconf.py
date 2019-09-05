@@ -46,7 +46,7 @@ ICONS = (
     ('fab fa-github', 'https://github.com/neurofedora',
      "Github"),
     ('fas fa-bug',
-     'https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&email1=neuro-sig%40lists.fedoraproject.org&emailassigned_to1=1&emailcc1=1&emaildocs_contact1=1&emaillongdesc1=1&emailqa_contact1=1&emailreporter1=1&emailtype1=substring&query_format=advanced',
+     'https://tinyurl.com/neurofedora-bugs',
      "Bugs"),
     ('fab fa-fedora', 'https://getfedora.org',
      "Get Fedora!"),
