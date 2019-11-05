@@ -87,8 +87,7 @@ publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 github: publish
-	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR) -c neuroblog.fedoraproject.org
-	git push origin $(GITHUB_PAGES_BRANCH)
+	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR) -c neuroblog.fedoraproject.org -n -p
 
 newpost:
 ifdef NAME
