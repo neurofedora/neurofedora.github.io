@@ -15,7 +15,7 @@ TIMEZONE = 'Europe/London'
 DEFAULT_LANG = 'en'
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['tag_cloud', 'share_post']
+#  PLUGINS = ['tag_cloud', 'share_post']
 
 # Theme
 THEME = "theme-alchemy/alchemy"
