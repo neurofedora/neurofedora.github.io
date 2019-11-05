@@ -10,8 +10,7 @@ SITEURL = ''
 
 PATH = 'content'
 
-# Let it use UTC
-#  TIMEZONE = 'UTC'
+TIMEZONE = 'Europe/London'
 
 DEFAULT_LANG = 'en'
 
