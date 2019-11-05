@@ -91,5 +91,6 @@ STATIC_PATHS = [
 
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/.nojekyll': {'path': '.nojekyll'},
     'extra/NeuroFedoraLogo01-title.png': {'path': 'NeuroFedoraLogo01-title.png'}
 }
