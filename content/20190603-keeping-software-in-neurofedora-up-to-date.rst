@@ -96,7 +96,7 @@ One of the `NeuroFedora package maintainers
 <https://src.fedoraproject.org/group/neuro-sig>`__ notices the bug and begins
 to work on it. All notifications from bugzilla are sent to the `neuro-sig
 mailing list
-<https://lists.fedoraproject.org/archives/list/neuro-sig@lists.fedoraproject.org/>`__,
+<https://lists.fedoraproject.org/archives/list/neurofedora@lists.fedoraproject.org/>`__,
 so the team is usually always aware of these.
 
 First, we fetch the new source code and test it to see how it has changed in

@@ -35,7 +35,7 @@ LINKS = (('Posts', '/blog_index.html'),
 # Social widget
 ICONS = (
     ('fas fa-mail-bulk',
-     'https://lists.fedoraproject.org/admin/lists/neuro-sig@lists.fedoraproject.org/',
+     'https://lists.fedoraproject.org/admin/lists/neurofedora@lists.fedoraproject.org/',
      'Mailing list'),
     ('fas fa-comments', 'https://webchat.freenode.net/?channels=#fedora-neuro',
      "Chat"),
