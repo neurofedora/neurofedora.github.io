@@ -45,6 +45,8 @@ ICONS = (
      "Tickets"),
     ('fab fa-github', 'https://github.com/neurofedora',
      "Github"),
+    ('fab fa-linkedin', 'https://www.linkedin.com/groups/8912503/',
+     "LinkedIn"),
     ('fas fa-bug',
      'https://tinyurl.com/neurofedora-bugs',
      "Bugs"),
