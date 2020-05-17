@@ -1,13 +1,11 @@
-Open positions: NeuroFedora is looking for trainees
-####################################################
+Open positions: NeuroFedora is looking to take on trainees
+##########################################################
 :date: 2020-05-17 23:38:51
 :author: Ankur Sinha
 :category: Community
 :tags: Trainees, Team, Open positions
-:slug: open-positions-neurofedora-is-looking-for-trainees
-:summary: NeuroFedora_ is looking to increase the team to get more work done.
-
-
+:slug: open-positions-neurofedora-is-looking-to-take-on-trainees
+:summary: NeuroFedora_ is looking to increase the team to get more work done.  We are looking to take on trainees!
 
 .. raw:: html
 
