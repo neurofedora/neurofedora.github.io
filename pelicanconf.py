@@ -34,6 +34,9 @@ LINKS = (('Posts', '/blog_index.html'),
 
 # Social widget
 ICONS = (
+    ('fab fa-twitter',
+     'https://twitter.com/neurofedora',
+     'NeuroFedora on Twitter'),
     ('fas fa-mail-bulk',
      'https://lists.fedoraproject.org/admin/lists/neurofedora@lists.fedoraproject.org/',
      'Mailing list'),
