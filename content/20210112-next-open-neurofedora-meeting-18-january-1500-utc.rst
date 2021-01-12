@@ -12,7 +12,7 @@ Next Open NeuroFedora meeting: 18 January 1500 UTC
    <center>
 
 .. figure:: {static}/images/20200112-image.jpg
-    :alt: Teamwork by Perry Grone on Unsplash
+    :alt: Photo by William White on Unsplash
     :width: 80%
     :class: img-responsive
     :target: #
