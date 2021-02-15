@@ -1,11 +1,12 @@
-Next Open NeuroFedora meeting: 18 January 1500 UTC
+Next Open NeuroFedora meeting: 18 January 1300 UTC
 ##################################################
 :date: 2021-01-12 19:56:40
+:modified: 2021-02-15 12:11:05
 :author: Ankur Sinha
 :category: Community
 :tags: meeting, IRC, Telegram, Matrix, Element
 :slug: next-open-neurofedora-meeting-18-january-1500-utc
-:summary: The next open NeuroFedora meeting is on 18 January 1500 UTC. Please read the post for the agenda and information on how to attend the meeting.
+:summary: The next open NeuroFedora meeting is on 18 January 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.
 
 .. raw:: html
 
