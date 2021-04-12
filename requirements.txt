@@ -1,0 +1,7 @@
+beautifulsoup4
+icalendar
+pelican
+pybtex
+feedgenerator
+Pygments
+ghp-import
