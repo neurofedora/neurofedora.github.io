@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neuroblog.fedoraproject.org/" rel="alternate"></link><link href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml" rel="self"></link><id>https://neuroblog.fedoraproject.org/</id><updated>2021-04-26T09:37:17+01:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>Next Open NeuroFedora meeting: 26 April 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2021/04/26/next-open-neurofedora-meeting-26-april-1300-utc.html" rel="alternate"></link><published>2021-04-26T09:37:17+01:00</published><updated>2021-04-26T09:37:17+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2021-04-26:/2021/04/26/next-open-neurofedora-meeting-26-april-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 26 April 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 26 April at 1300UTC in #fedora-neuro on IRC (Freenode).
+The meeting is a public meeting, and open for everyone to attend.
+You can join us over:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://webchat.freenode.net/?channels=#fedora-neuro"&gt;IRC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;or &lt;a class="reference external" href="https://matrix.to/#/!xgwUsLNGIoOAXMxGMQ:matrix.org?via=matrix.org&amp;amp;via=t2bot.io"&gt;Matrix/Element&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the channel is also bridged to Telegram, so you can also join us there on the &amp;#64;NeuroFedora group: &lt;a class="reference external" href="https://t.me/NeuroFedora"&gt;https://t.me/NeuroFedora&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+Meeting&amp;amp;iso=20210426T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ date --date&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;TZ=&amp;quot;UTC&amp;quot; 1300 today&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/teams/neurofedora/neurofedora.2021-04-12-13.00.html"&gt;Tasks from last week's meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for F34/F35&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"></category><category term="meeting"></category><category term="IRC"></category><category term="Telegram"></category><category term="Matrix"></category><category term="Element"></category></entry><entry><title>Next Open NeuroFedora meeting: 12 April 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2021/04/12/next-open-neurofedora-meeting-12-april-1300-utc.html" rel="alternate"></link><published>2021-04-12T09:41:26+01:00</published><updated>2021-04-12T09:41:26+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2021-04-12:/2021/04/12/next-open-neurofedora-meeting-12-april-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 12 April 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 12 April at 1300UTC in #fedora-neuro on IRC (Freenode).
+The meeting is a public meeting, and open for everyone to attend.
+You can join us over:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://webchat.freenode.net/?channels=#fedora-neuro"&gt;IRC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;or &lt;a class="reference external" href="https://matrix.to/#/!xgwUsLNGIoOAXMxGMQ:matrix.org?via=matrix.org&amp;amp;via=t2bot.io"&gt;Matrix/Element&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the channel is also bridged to Telegram, so you can also join us there on the &amp;#64;NeuroFedora group: &lt;a class="reference external" href="https://t.me/NeuroFedora"&gt;https://t.me/NeuroFedora&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+Meeting&amp;amp;iso=20210412T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ date --date&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;TZ=&amp;quot;UTC&amp;quot; 1300 today&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Bt0dotninja"&gt;&amp;#64;bt0dotninja&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/teams/neurofedora/neurofedora.2021-03-29-14.06.html"&gt;Tasks from last week's meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://tinyurl.com/neurofedora-bugs"&gt;Open bugs check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koschei.fedoraproject.org/groups/neuro-sig"&gt;Koschei packages check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for F34/F35&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"></category><category term="meeting"></category><category term="IRC"></category><category term="Telegram"></category><category term="Matrix"></category><category term="Element"></category></entry><entry><title>Next Open NeuroFedora meeting: 29 March 1400 UTC</title><link href="https://neuroblog.fedoraproject.org/2021/03/29/next-open-neurofedora-meeting-29-march-1400-utc.html" rel="alternate"></link><published>2021-03-29T10:26:26+01:00</published><updated>2021-03-29T10:26:26+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2021-03-29:/2021/03/29/next-open-neurofedora-meeting-29-march-1400-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 29 March 1400 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;&lt;strong&gt;Please note the change in time for today's meeting: 1400 UTC instead of 1300 UTC&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 29 March at 1400UTC in #fedora-neuro on IRC (Freenode).
+The meeting is a public meeting, and open for everyone to attend.
+You can join us over:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://webchat.freenode.net/?channels=#fedora-neuro"&gt;IRC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;or &lt;a class="reference external" href="https://matrix.to/#/!xgwUsLNGIoOAXMxGMQ:matrix.org?via=matrix.org&amp;amp;via=t2bot.io"&gt;Matrix/Element&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the channel is also bridged to Telegram, so you can also join us there on the &amp;#64;NeuroFedora group: &lt;a class="reference external" href="https://t.me/NeuroFedora"&gt;https://t.me/NeuroFedora&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+Meeting&amp;amp;iso=20210329T14&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ date --date&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;TZ=&amp;quot;UTC&amp;quot; 1400 today&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &amp;#64;ankursinha.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/teams/neurofedora/neurofedora.2021-03-15-13.00.html"&gt;Tasks from last week's meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://tinyurl.com/neurofedora-bugs"&gt;Open bugs check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koschei.fedoraproject.org/groups/neuro-sig"&gt;Koschei packages check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for F34/F35&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"></category><category term="meeting"></category><category term="IRC"></category><category term="Telegram"></category><category term="Matrix"></category><category term="Element"></category></entry><entry><title>Next Open NeuroFedora meeting: 15 March 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2021/03/15/next-open-neurofedora-meeting-15-march-1300-utc.html" rel="alternate"></link><published>2021-03-15T10:18:19+00:00</published><updated>2021-03-15T10:18:19+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2021-03-15:/2021/03/15/next-open-neurofedora-meeting-15-march-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 15 March 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 15 March at 1300UTC in #fedora-neuro on IRC (Freenode).
+The meeting is a public meeting, and open for everyone to attend.
+You can join us over:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://webchat.freenode.net/?channels=#fedora-neuro"&gt;IRC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;or &lt;a class="reference external" href="https://matrix.to/#/!xgwUsLNGIoOAXMxGMQ:matrix.org?via=matrix.org&amp;amp;via=t2bot.io"&gt;Matrix/Element&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the channel is also bridged to Telegram, so you can also join us there on the &amp;#64;NeuroFedora group: &lt;a class="reference external" href="https://t.me/NeuroFedora"&gt;https://t.me/NeuroFedora&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+Meeting&amp;amp;iso=20210315T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ date --date&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;TZ=&amp;quot;UTC&amp;quot; 1300 today&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &amp;#64;nerdsville.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/teams/neurofedora/neurofedora.2021-03-01-13.00.html"&gt;Tasks from last week's meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://tinyurl.com/neurofedora-bugs"&gt;Open bugs check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koschei.fedoraproject.org/groups/neuro-sig"&gt;Koschei packages check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for F33/F34&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"></category><category term="meeting"></category><category term="IRC"></category><category term="Telegram"></category><category term="Matrix"></category><category term="Element"></category></entry><entry><title>Next Open NeuroFedora meeting: 1 March 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2021/03/01/next-open-neurofedora-meeting-1-march-1300-utc.html" rel="alternate"></link><published>2021-03-01T09:48:21+00:00</published><updated>2021-03-01T09:48:21+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2021-03-01:/2021/03/01/next-open-neurofedora-meeting-1-march-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 1 March 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 1 March at 1300UTC in #fedora-neuro on IRC (Freenode).
+The meeting is a public meeting, and open for everyone to attend.
+You can join us over:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://webchat.freenode.net/?channels=#fedora-neuro"&gt;IRC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;or &lt;a class="reference external" href="https://matrix.to/#/!xgwUsLNGIoOAXMxGMQ:matrix.org?via=matrix.org&amp;amp;via=t2bot.io"&gt;Matrix/Element&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the channel is also bridged to Telegram, so you can also join us there on the &amp;#64;NeuroFedora group: &lt;a class="reference external" href="https://t.me/NeuroFedora"&gt;https://t.me/NeuroFedora&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+Meeting&amp;amp;iso=20210301T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ date --date&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;TZ=&amp;quot;UTC&amp;quot; 1300 today&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &amp;#64;major.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/teams/neurofedora/neurofedora.2021-02-01-13.00.html"&gt;Tasks from last week's meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://tinyurl.com/neurofedora-bugs"&gt;Open bugs check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koschei.fedoraproject.org/groups/neuro-sig"&gt;Koschei packages check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for F33/F34&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"></category><category term="meeting"></category><category term="IRC"></category><category term="Telegram"></category><category term="Matrix"></category><category term="Element"></category></entry><entry><title>Next Open NeuroFedora meeting: 15 February 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2021/02/15/next-open-neurofedora-meeting-15-february-1500-utc.html" rel="alternate"></link><published>2021-02-15T09:11:05+00:00</published><updated>2021-02-15T12:11:05+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2021-02-15:/2021/02/15/next-open-neurofedora-meeting-15-february-1500-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 15 February 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 15 February at 1300UTC in #fedora-neuro on IRC (Freenode).
+The meeting is a public meeting, and open for everyone to attend.
+You can join us over:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://webchat.freenode.net/?channels=#fedora-neuro"&gt;IRC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;or &lt;a class="reference external" href="https://matrix.to/#/!xgwUsLNGIoOAXMxGMQ:matrix.org?via=matrix.org&amp;amp;via=t2bot.io"&gt;Matrix/Element&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the channel is also bridged to Telegram, so you can also join us there on the &amp;#64;NeuroFedora group: &lt;a class="reference external" href="https://t.me/NeuroFedora"&gt;https://t.me/NeuroFedora&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+Meeting&amp;amp;iso=20210215T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ date --date&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;TZ=&amp;quot;UTC&amp;quot; 1300 today&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &amp;#64;ankursinha.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/teams/neurofedora/neurofedora.2021-02-01-13.00.html"&gt;Tasks from last week's meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://tinyurl.com/neurofedora-bugs"&gt;Open bugs check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koschei.fedoraproject.org/groups/neuro-sig"&gt;Koschei packages check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for F33/F34&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"></category><category term="meeting"></category><category term="IRC"></category><category term="Telegram"></category><category term="Matrix"></category><category term="Element"></category></entry><entry><title>NeuroFedora at the INCF/OCNS Software WG dev sessions</title><link href="https://neuroblog.fedoraproject.org/2021/02/11/neurofedora-at-the-incf-ocns-software-wg-dev-sessions.html" rel="alternate"></link><published>2021-02-11T09:56:52+00:00</published><updated>2021-02-11T09:56:52+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2021-02-11:/2021/02/11/neurofedora-at-the-incf-ocns-software-wg-dev-sessions.html</id><summary type="html">&lt;p class="first last"&gt;Join the &lt;a class="reference external" href="https://incf.org"&gt;INCF&lt;/a&gt; / &lt;a class="reference external" href="http://www.cnsorg.org"&gt;OCNS&lt;/a&gt; &lt;a class="reference external" href="https://ocns.github.io/SoftwareWG/pages/about.html"&gt;Software Working Group&lt;/a&gt;'s developer session on February 16th to learn how &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is developed!&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;This was originally posted on the &lt;a class="reference external" href="https://incf.org"&gt;INCF&lt;/a&gt; / &lt;a class="reference external" href="http://www.cnsorg.org"&gt;OCNS&lt;/a&gt; &lt;a class="reference external" href="https://ocns.github.io/SoftwareWG/pages/about.html"&gt;Software Working Group (WG)&lt;/a&gt;'s blog &lt;a class="reference external" href="https://ocns.github.io/SoftwareWG/2021/02/07/dev-session-ankur-sinha-neurofedora.html"&gt;here&lt;/a&gt;.
+It is a great opportunity to learn how &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is developed.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://ankursinha.in"&gt;Ankur Sinha&lt;/a&gt; will introduce the &lt;a class="reference external" href="https://www.fsf.org/blogs/community/user-liberation-watch-and-share-our-new-video/"&gt;Free/Open Source Software&lt;/a&gt; &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; project and discuss its development in this developer session.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Date: Feb 16, 2021 1700 UTC (Click &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Dev+session%3A+Ankur+Sinha%3A+NeuroFedora&amp;amp;iso=20210216T17&amp;amp;p1=136&amp;amp;ah=1"&gt;here&lt;/a&gt;  to see your local time).&lt;/li&gt;
+&lt;li&gt;Location (Zoom): &lt;a class="reference external" href="https://ucl.zoom.us/j/94964460359?pwd=MTJmWEY1NHRxd3l4ZGdtTS9NQ1FaZz09"&gt;https://ucl.zoom.us/j/94964460359?pwd=MTJmWEY1NHRxd3l4ZGdtTS9NQ1FaZz09&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The abstract for the talk is below:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is an initiative to provide a ready to use Fedora based Free/Open source software platform for neuroscience.
+We believe that similar to Free software, science should be free for all to use, share, modify, and study.
+The use of Free software also aids reproducibility, data sharing, and collaboration in the research community.
+By making the tools used in the scientific process easier to use, NeuroFedora aims to take a step to enable this ideal.
+In this session, I will talk about the deliverables of the &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; project and then go over the complete pipeline that we use to produce, test, and disseminate them.&lt;/p&gt;
+</content><category term="News"></category><category term="INCF"></category><category term="OCNS"></category><category term="Software working group"></category><category term="development"></category><category term="community"></category><category term="FOSS"></category></entry><entry><title>Next Open NeuroFedora meeting: 1 February 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2021/02/01/next-open-neurofedora-meeting-1-february-1500-utc.html" rel="alternate"></link><published>2021-02-01T08:47:03+00:00</published><updated>2021-02-15T12:11:05+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2021-02-01:/2021/02/01/next-open-neurofedora-meeting-1-february-1500-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 01 February 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 1 February at 1300UTC in #fedora-neuro on IRC (Freenode).
+The meeting is a public meeting, and open for everyone to attend.
+You can join us over:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://webchat.freenode.net/?channels=#fedora-neuro"&gt;IRC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;or &lt;a class="reference external" href="https://matrix.to/#/!xgwUsLNGIoOAXMxGMQ:matrix.org?via=matrix.org&amp;amp;via=t2bot.io"&gt;Matrix/Element&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the channel is also bridged to Telegram, so you can also join us there on the &amp;#64;NeuroFedora group: &lt;a class="reference external" href="https://t.me/NeuroFedora"&gt;https://t.me/NeuroFedora&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+Meeting&amp;amp;iso=20210201T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ date --date&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;TZ=&amp;quot;UTC&amp;quot; 1300 today&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &amp;#64;bt0dotninja.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/teams/neurofedora/neurofedora.2021-01-18-13.06.html"&gt;Tasks from last week's meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://tinyurl.com/neurofedora-bugs"&gt;Open bugs check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koschei.fedoraproject.org/groups/neuro-sig"&gt;Koschei packages check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for F33/F34&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"></category><category term="meeting"></category><category term="IRC"></category><category term="Telegram"></category><category term="Matrix"></category><category term="Element"></category></entry><entry><title>Next Open NeuroFedora meeting: 18 January 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2021/01/12/next-open-neurofedora-meeting-18-january-1500-utc.html" rel="alternate"></link><published>2021-01-12T19:56:40+00:00</published><updated>2021-02-15T12:11:05+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2021-01-12:/2021/01/12/next-open-neurofedora-meeting-18-january-1500-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 18 January 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 18 January at 1300UTC in #fedora-neuro on IRC (Freenode).
+The meeting is a public meeting, and open for everyone to attend.
+You can join us over:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://webchat.freenode.net/?channels=#fedora-neuro"&gt;IRC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;or &lt;a class="reference external" href="https://matrix.to/#/!xgwUsLNGIoOAXMxGMQ:matrix.org?via=matrix.org&amp;amp;via=t2bot.io"&gt;Matrix/Element&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the channel is also bridged to Telegram, so you can also join us there on the &amp;#64;NeuroFedora group: &lt;a class="reference external" href="https://t.me/NeuroFedora"&gt;https://t.me/NeuroFedora&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+Meeting&amp;amp;iso=20210118T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ date --date&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;TZ=&amp;quot;UTC&amp;quot; 1300 next Monday&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &amp;#64;ankursinha (me).
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/teams/neurofedora/neurofedora.2020-11-30-13.01.html"&gt;Tasks from last week's meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://tinyurl.com/neurofedora-bugs"&gt;Open bugs check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koschei.fedoraproject.org/groups/neuro-sig"&gt;Koschei packages check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for F33/F34&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"></category><category term="meeting"></category><category term="IRC"></category><category term="Telegram"></category><category term="Matrix"></category><category term="Element"></category></entry><entry><title>Open positions: NeuroFedora is looking to take on trainees</title><link href="https://neuroblog.fedoraproject.org/2020/05/17/open-positions-neurofedora-is-looking-to-take-on-trainees.html" rel="alternate"></link><published>2020-05-17T23:38:51+01:00</published><updated>2020-05-17T23:38:51+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2020-05-17:/2020/05/17/open-positions-neurofedora-is-looking-to-take-on-trainees.html</id><summary type="html">&lt;p class="first last"&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is looking to increase the team to get more work done.  We are looking to take on trainees!&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;&lt;img alt="Teamwork by Perry Grone on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200517.png" style="width: 80%;" /&gt;&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;perrygrone?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText"&gt;Perry Grone&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/teamwork?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;After the recent release of the &lt;a class="reference external" href="https://labs.fedoraproject.org/en/comp-neuro"&gt;Computational Neuroscience installable OS
+image&lt;/a&gt;, the &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; team
+is looking to work on to the next set of deliverables. For this, we need to
+expand the team.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;I want to note that we are not only looking for people that may already have
+the necessary skills. We are looking for anyone interested in working in these
+areas that would perhaps like to acquire the required skills. We will teach the
+skills that we can, and where we cannot, we will involve experienced members of
+the Free/Open Source software community to help us. All one really needs is a
+few hours a week of free time.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We are looking for people interested in:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Scientific communication, marketing, outreach, and community engagement:&lt;ul&gt;
+&lt;li&gt;To spread information on the staggering amount of Free/Open Source Software
+that is available for Neuroscience to researchers and the community in
+general,&lt;/li&gt;
+&lt;li&gt;To disseminate the progress that the &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; team makes regularly to
+the community.&lt;/li&gt;
+&lt;li&gt;To just generally monitor our various communication channels to answer
+queries and participate in discussions with the team and users.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Software development:&lt;ul&gt;
+&lt;li&gt;There are still about &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues"&gt;200 tools&lt;/a&gt; to include in
+&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;, so still lots of work to do here. Some tools related to
+computational neuroscience remain, so we are working on those. However, we
+want to start making some headway on the next deliverable that will be
+focussed on neuroimaging and data analysis. Not only do we need to build
+these tools from source, we also need to test them regularly, and push new
+versions to our users when developers make new releases.&lt;/li&gt;
+&lt;li&gt;We also want to provide easy to use containers for all the tools that we
+are including in &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Neuro-imaging and data analysis in Neuroscience:&lt;ul&gt;
+&lt;li&gt;A lot of tools on our list are related to Neuro-imaging and data analysis.
+To effectively integrate these with the rest of &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;, we need more
+people with domain knowledge. If you work these areas or want to work in
+them and would like to learn more about these tools, &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is a
+great informal environment to start in.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It is common knowledge that joining Free/Open source communities is an excellent
+way to pick up skills and experience. So, I especially encourage students to
+join one, even if it is not &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I also have first hand experience of how busy a PhD candidate can get, but in
+my experience I also found it possible to free up a few hours a week to work on
+developing general skills that one may not necessarily be able to learn from
+daily research work. So, I also strongly encourage undergraduate/postgraduate
+research students and Ph.D. candidates to do the same.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/communicating/"&gt;Get in touch with us today!&lt;/a&gt;&lt;/p&gt;
+</content><category term="Community"></category><category term="Trainees"></category><category term="Team"></category><category term="Open positions"></category></entry><entry><title>Fedora 32 Computational Neuroscience ready-to-install ISO image is now available!</title><link href="https://neuroblog.fedoraproject.org/2020/04/28/fedora-32-computational-neuroscience-ready-to-install-iso-image-is-now-available.html" rel="alternate"></link><published>2020-04-28T15:05:00+01:00</published><updated>2020-04-28T15:05:00+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2020-04-28:/2020/04/28/fedora-32-computational-neuroscience-ready-to-install-iso-image-is-now-available.html</id><summary type="html">&lt;p class="first last"&gt;Fedora 32 was released today, and so was the NeuroFedora
+Computational Neuroscience ISO image! Download, install, and get to
+work!&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://labs.fedoraproject.org/en/comp-neuro"&gt;&lt;img alt="Download the Fedora 32 Computational Neuroscience image from labs.fedoraproject.org" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200428-Comp-neuro-website.png" style="width: 80%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;&lt;a class="reference external" href="https://getfedora.org"&gt;Fedora 32&lt;/a&gt; was released today after a full six
+months of development. There are a lot of improvements and new changes included
+in this release. You can read the &lt;a class="reference external" href="https://fedoramagazine.org/announcing-fedora-32-2/"&gt;announcement here&lt;/a&gt; and the complete
+release notes &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/fedora/f32"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This release is particularly exciting for the NeuroFedora team. It also marks
+the first release of our first deliverable: the CompNeuro Lab ISO image! The
+aim of developing such ready to install ISO images that are packed with the
+necessary tools is to enable users to quickly set up their computers and get
+down to work, instead of wasting precious time and effort on installing tools
+individually by hand. While we hope that this will enable researchers by
+providing them easy access to Free/Open Source research tools, we also hope
+that the platform will serve as a teaching aid in Computational Neuroscience
+courses.&lt;/p&gt;
+&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://labs.fedoraproject.org/en/comp-neuro"&gt;&lt;img alt="Applications featured in the CompNeuro ISO image." class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200428-neurofedora-featured.png" style="width: 80%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;This CompNeuro release includes a number of modelling related tools that we
+were able to package over the release:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://fzenke.net/auryn/doku.php"&gt;Auryn&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.csb.pitt.edu/Faculty/Faeder/?page_id=409"&gt;Bionetgen&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://web.njit.edu/~matveev/calc.html"&gt;Calc: calcium-calculator&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://copasi.org/"&gt;COPASI&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://getdp.info//"&gt;GetDP&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://genesis-sim.org/GENESIS/genesis.html"&gt;GENESIS&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://moose.ncbs.res.in/"&gt;MOOSE&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.nest-simulator.org/"&gt;NEST simulator&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://neuron.yale.edu/neuron/"&gt;NEURON&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://lems.github.io/LEMS/"&gt;PyLEMS&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.smoldyn.org/"&gt;Smoldyn&lt;/a&gt;,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All of these tools have been built with the current best practices in Software
+Development in mind---this is mandated by the &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/packaging-guidelines/"&gt;Fedora community's software
+packaging guidelines&lt;/a&gt;. In addition to
+modelling tools, the ISO image also includes multiple tools used in analysis of
+data:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;the complete &lt;a class="reference external" href="https://www.scipy.org/"&gt;Python science stack&lt;/a&gt;: NumPy, SciPy, Matplotlib, IPython, SymPy, and Pandas,&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.r-project.org/"&gt;R&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://julialang.org/"&gt;Julia&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.gnu.org/software/octave/"&gt;GNU Octave&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://gnuplot.info/"&gt;GNUPlot&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.paraview.org/"&gt;Paraview&lt;/a&gt;,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is not all, though! There's &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/software/"&gt;even more Neuroscience software&lt;/a&gt; that can be
+installed from the repositories. Also, since this edition is derived from
+Fedora, users have access to the &lt;em&gt;complete&lt;/em&gt; set of packages that are included
+in Fedora: all the &lt;a class="reference external" href="https://spins.fedoraproject.org/"&gt;desktop environments&lt;/a&gt;,
+productivity tools, development tools, and libraries that you can choose from.&lt;/p&gt;
+&lt;p&gt;The CompNeuro ISO image is based on the &lt;a class="reference external" href="https://getfedora.org/en/workstation/"&gt;Fedora Workstation&lt;/a&gt; product that uses the modern &lt;a class="reference external" href="https://www.gnome.org/"&gt;GNOME
+desktop environment&lt;/a&gt;.  It provides a clean interface
+integrated with a plethora of daily use productivity and development tools:&lt;/p&gt;
+&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://neuroblog.fedoraproject.org/images/20200427-gnome.png"&gt;&lt;img alt="Screenshot of the GNOME desktop environment." class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200427-gnome.png" style="width: 80%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://neuroblog.fedoraproject.org/images/20200427-gnome-applications.png"&gt;&lt;img alt="Screenshot of the GNOME desktop environment with applications." class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200427-gnome-applications.png" style="width: 80%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;If GNOME isn't to your liking, though, there are other options. You can install
+any &lt;a class="reference external" href="https://spins.fedoraproject.org"&gt;Fedora &amp;quot;spin&amp;quot;&lt;/a&gt; and install the
+software you need there also. Whatever you choose, you'll be ready to work in
+no time:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;download a Fedora image,&lt;/li&gt;
+&lt;li&gt;install the tools you need,&lt;/li&gt;
+&lt;li&gt;get to work!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="section" id="feedback-is-welcome"&gt;
+&lt;h2&gt;Feedback is welcome&lt;/h2&gt;
+&lt;p&gt;This is the team's first deliverable. There is a lot of Free/Open Source
+software out there that still needs to be included in NeuroFedora. If you use a
+tool that's not on our &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=T%3A+Software"&gt;list&lt;/a&gt;,
+please let us know. If you experience any issues or have ideas for improvement,
+please do let us know. You can contact the team using any of our &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/communicating/"&gt;communication
+channels&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Developing NeuroFedora is also a great learning experience, especially for
+students. As a volunteer based community project, we learn skills and tools
+together and share knowledge freely with each other. No skills or experience
+are necessary to join the community. You can find what you want to do, and
+gather the required knowledge as you go at your own pace. We strongly encourage
+students to join the team, contribute their bit, and learn more about the tools
+use in Neuroscience while they do it.&lt;/p&gt;
+&lt;p&gt;We'd love to hear from you. Please get in touch.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="News"></category><category term="Computational Modelling"></category><category term="Fedora Lab"></category><category term="GENESIS"></category><category term="Julia"></category><category term="NEST"></category><category term="Neuron"></category><category term="Python"></category><category term="Software"></category></entry><entry><title>Updated NeuroFedora Computational Neuroscience ISO image available</title><link href="https://neuroblog.fedoraproject.org/2019/12/08/updated-neurofedora-computational-neuroscience-iso-image-available.html" rel="alternate"></link><published>2019-12-08T12:14:11+00:00</published><updated>2019-12-08T12:14:11+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-12-08:/2019/12/08/updated-neurofedora-computational-neuroscience-iso-image-available.html</id><summary type="html">&lt;p class="first last"&gt;An updated ready to use ISO image with Computational Neuroscience
+software is now available. It now includes Julia and R.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;We've been working on making more software available in &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;. &lt;a class="reference external" href="https://src.fedoraproject.org/rpms/neuron"&gt;Neuron&lt;/a&gt;
+is now built with &lt;a class="reference external" href="https://src.fedoraproject.org/rpms/iv"&gt;IV&lt;/a&gt; support, so models from &lt;a class="reference external" href="https://senselab.med.yale.edu/ModelDB/"&gt;ModelDB&lt;/a&gt; that use these should
+now be runnable using &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;a class="reference external" href="https://neuroblog.fedoraproject.org/2019/11/05/neurofedora-computational-neuroscience-iso-image-is-now-available.html"&gt;Computational Neuroscience ISO image&lt;/a&gt;
+has been updated to include these improvements. After receiving some feedback,
+we've also added Julia and R to the image. The new version, 20191201, is
+available for download &lt;a class="reference external" href="https://fedorapeople.org/groups/neuro-sig/"&gt;here&lt;/a&gt;.
+The checksum file is also provided. So please test your download for
+correctness before you proceed to use it.&lt;/p&gt;
+&lt;p&gt;On a Linux system, please download both files (ISO and CHECKSUM), and run the
+following command in a terminal, in the directory where the files were
+downloaded, to verify the downloaded ISO:&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+sha256sum -c Fedora-31-Comp-Neuro-20191201-1-x86_64-CHECKSUM
+&lt;/pre&gt;
+&lt;div class="section" id="other-updates"&gt;
+&lt;h2&gt;Other updates&lt;/h2&gt;
+&lt;p&gt;In the meantime, we continue to package more software from our (rather long)
+&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=F%3A+Computational+neuroscience"&gt;list&lt;/a&gt;.
+&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/jlems"&gt;jLEMS&lt;/a&gt; is now in testing; &lt;a class="reference external" href="https://github.com/arbor-sim/arbor"&gt;Arbor&lt;/a&gt; is in ready for &lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=1780906"&gt;review&lt;/a&gt;; &lt;a class="reference external" href="http://napari.org/"&gt;Napari&lt;/a&gt; is being
+&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/305"&gt;worked upon&lt;/a&gt;; along with
+a bunch of other tools. Help is always welcome. So if you'd have the software
+development skills required to build tools from source or would like to
+develop these, please get in touch with us!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="neurofedora-at-fosdem"&gt;
+&lt;h2&gt;NeuroFedora at FOSDEM&lt;/h2&gt;
+&lt;p&gt;We've submitted an abstract to the &lt;a class="reference external" href="https://fosdem.org/2020/schedule/track/open_research_tools_and_technologies/"&gt;Open Research Tools and Technologies
+Devroom&lt;/a&gt;
+at FOSDEM which will be held Brussels on February 1 and 2. There will also be
+general Fedora presence at the event, with a booth too. You can learn more
+about Fedora at FOSDEM &lt;a class="reference external" href="https://fedoraproject.org/wiki/FOSDEM_2020"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please get in touch with the people listed on the event page for more
+information on Fedora at FOSDEM. For &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; specific inquiries, you can
+contact &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Major"&gt;major&lt;/a&gt; who is the
+&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; team member organising our presence at the event (or ping the team
+on our communication channels).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="where-we-need-help"&gt;
+&lt;h2&gt;Where we need help&lt;/h2&gt;
+&lt;p&gt;There's always lots to do. Here's a short list of where we need help:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;including new software: &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues"&gt;https://pagure.io/neuro-sig/NeuroFedora/issues&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;using and testing the software, to ensure that it works correctly: just
+download the ISO or install tools and use them, and &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/quick-docs/howto-file-a-bug/"&gt;file bugs if (when,
+rather) you find them&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;keeping our &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;documentation&lt;/a&gt; up to date:
+documentation is paramount, so we need to keep it up to date,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I won't list the skills that these tasks need, because we're not simply looking
+for people who have them already. We are looking for people who'd like to
+promote Open Science, and we will help them learn the skills.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="News"></category><category term="Computational Modelling"></category><category term="GENESIS"></category><category term="NEST"></category><category term="Neuron"></category><category term="Julia"></category><category term="R"></category></entry><entry><title>Neuroscience planets have moved</title><link href="https://neuroblog.fedoraproject.org/2019/11/13/neuroscience-planets-have-moved.html" rel="alternate"></link><published>2019-11-13T11:37:58+00:00</published><updated>2019-11-13T11:37:58+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-11-13:/2019/11/13/neuroscience-planets-have-moved.html</id><summary type="html">&lt;p class="first last"&gt;The two Neuroscience planets have moved to the NeuroFedora URL space.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;Just a short notification that the two neuroscience planets have moved to the
+&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; URL space. They can now be found at:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/"&gt;Planet Neuroscientists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://neuroblog.fedoraproject.org/planet-neuroscience/"&gt;Planet Neuroscience&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The planet instances on my personal space will remain functional for the next
+few weeks till the end of November, after which I'll stop updating them. Please
+update your links/bookmarks. Since this is all hosted on Github pages, setting
+up permanent redirects is not easy but we'll see what we can do.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/"&gt;Planet Neuroscientists&lt;/a&gt; collects RSS feeds from various neuroscience blogs
+and web-sites. This is a good read for non-experts. &lt;a class="reference external" href="https://neuroblog.fedoraproject.org/planet-neuroscience/"&gt;Planet Neuroscience&lt;/a&gt;, on
+the other hand, collects RSS feeds from various publication sources. So, the
+main content here will consists of peer-reviewed publications and pre-prints.
+They are updated twice a day at the moment, which seems to work well enough.&lt;/p&gt;
+&lt;p&gt;You can add both these to your RSS feed reader by using the &amp;quot;Feeds&amp;quot; drop-down
+in the top right hand corner. You can also download the complete blog-roll
+there and choose individual feeds to add.&lt;/p&gt;
+&lt;p&gt;These are both hosted on the &lt;a class="reference external" href="https://github.com/neurofedora"&gt;NeuroFedora Github space&lt;/a&gt;. You can suggest more feeds to be added to
+the planets too, either by opening an issue/pull request in the Github source
+repositories, or by getting in touch with the &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; team via any of our
+&lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/communicating/"&gt;communication channels&lt;/a&gt;.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+</content><category term="News"></category><category term="Venus"></category><category term="Planet"></category><category term="RSS"></category></entry><entry><title>NeuroFedora Computational Neuroscience ISO image is now available</title><link href="https://neuroblog.fedoraproject.org/2019/11/05/neurofedora-computational-neuroscience-iso-image-is-now-available.html" rel="alternate"></link><published>2019-11-05T10:12:03+00:00</published><updated>2019-11-05T10:12:03+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-11-05:/2019/11/05/neurofedora-computational-neuroscience-iso-image-is-now-available.html</id><summary type="html">&lt;p class="first last"&gt;As our first deliverable, a ready to use/install ISO containing
+computational neuroscience tools is now available! You can get it
+&lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/install-media/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;We have been busy working on our first deliverable so this post is a little
+overdue. Since we now have quite a bit of &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/compneuro-tools/"&gt;software for computational
+neuroscience&lt;/a&gt;
+available to use in &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;, the obvious next step was to try and make
+this even more easily available to users.&lt;/p&gt;
+&lt;p&gt;A &lt;a class="reference external" href="https://fedoramagazine.org/announcing-fedora-31/"&gt;Fedora 31&lt;/a&gt; based Comp Neuro ISO image is now ready, you can get it &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/install-media/"&gt;here&lt;/a&gt;. For more
+information on what this contains, and how it is created, read on.&lt;/p&gt;
+&lt;div class="section" id="fedora-community-deliverables"&gt;
+&lt;h2&gt;Fedora Community deliverables&lt;/h2&gt;
+&lt;p&gt;The Fedora community generates a bunch of deliverables for users. The main
+ones, of course, are the primary editions: the workstation, the server edition,
+CoreOS, Silverblue, IoT. They can all be obtained from the community website at
+&lt;a class="reference external" href="https://getfedora.org"&gt;https://getfedora.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;All of these are ready to use and have gone through a &lt;a class="reference external" href="https://fedoraproject.org/wiki/Releases/31/Schedule"&gt;thorough development
+cycle&lt;/a&gt; that includes a
+stringent &lt;a class="reference external" href="https://fedoraproject.org/wiki/QA"&gt;Quality Assurance (QA)&lt;/a&gt; cycle.
+These are &amp;quot;live&amp;quot;, so they can either either be used directly off the ISO image
+without having to install them, or they can be used to install a Fedora based
+system. Them being &amp;quot;live&amp;quot; makes them a great tool for temporary work---grab an
+ISO, start up a virtual machine, use Fedora to do your work, destroy the
+virtual machine when done.&lt;/p&gt;
+&lt;p&gt;While these are the main deliverables, the Fedora community also generates
+other media for our diverse user base. These are classified as &lt;a class="reference external" href="https://spins.fedoraproject.org"&gt;Spins&lt;/a&gt; and
+&lt;a class="reference external" href="https://labs.fedoraproject.org"&gt;Labs&lt;/a&gt;. While the Workstation is based on the &lt;a class="reference external" href="https://gnome.org"&gt;GNOME&lt;/a&gt; desktop environment, &lt;a class="reference external" href="https://spins.fedoraproject.org"&gt;Spins&lt;/a&gt;
+provide Fedora users other desktop environment based images: &lt;a class="reference external" href="https://kde.org/"&gt;KDE&lt;/a&gt;, &lt;a class="reference external" href="https://lxqt.org/"&gt;LXQT&lt;/a&gt;, &lt;a class="reference external" href="https://xfce.org/"&gt;XFCE&lt;/a&gt;,
+&lt;a class="reference external" href="https://mate-desktop.org"&gt;Mate&lt;/a&gt;, &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Cinnamon_(desktop_environment)"&gt;Cinnamon&lt;/a&gt;, &lt;a class="reference external" href="https://www.sugarlabs.org/"&gt;Sugar on a stick (SAOS)&lt;/a&gt;.
+&lt;a class="reference external" href="https://labs.fedoraproject.org"&gt;Labs&lt;/a&gt; are similar, but instead of focussing on the desktop environment, they
+include customised sets of software required for particular purposes:
+Astronomy, Design, Python, Security, Robotics.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-fedora-community-change-process"&gt;
+&lt;h2&gt;The Fedora Community Change Process&lt;/h2&gt;
+&lt;p&gt;We therefore, submitted a community change proposal to permit us to generate
+another Fedora Lab image, one for computational neuroscience. You can read the
+proposal &lt;a class="reference external" href="https://fedoraproject.org/wiki/Changes/Comp_Neuro_Lab"&gt;here&lt;/a&gt;. The
+&lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/program_management/changes_policy/"&gt;Changes process&lt;/a&gt;
+allows community members to propose new changes to aid the community. Depending
+on their scope, they can either be &amp;quot;System wide&amp;quot; or &amp;quot;Self Contained&amp;quot; changes.
+The &lt;a class="reference external" href="https://lists.fedoraproject.org/archives/list/devel-announce&amp;#64;lists.fedoraproject.org/thread/Z4NKZUX3SJXOC6QAC72AOEYECSS4JSKT/"&gt;community discussed our proposal&lt;/a&gt;,
+and the Fedora Engineering Steering Committee (&lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/fesco/"&gt;FESCO&lt;/a&gt;) has &lt;a class="reference external" href="https://pagure.io/fesco/issue/2237"&gt;approved it&lt;/a&gt; as a change for the &lt;a class="reference external" href="https://fedoraproject.org/wiki/Releases/32/Schedule"&gt;Fedora 32&lt;/a&gt; release.&lt;/p&gt;
+&lt;p&gt;So, from &lt;a class="reference external" href="https://fedoraproject.org/wiki/Releases/32/Schedule"&gt;Fedora 32&lt;/a&gt; onwards, a Comp Neuro Lab image will be generated by the
+&lt;a class="reference external" href="https://docs.pagure.org/releng/"&gt;Fedora Release Engineering Team&lt;/a&gt; as an
+official Fedora community deliverable, and it will feature on the Fedora &lt;a class="reference external" href="https://labs.fedoraproject.org"&gt;Labs&lt;/a&gt;
+website.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="fedora-31-comp-neuro-image"&gt;
+&lt;h2&gt;Fedora 31 Comp Neuro Image&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://fedoraproject.org/wiki/Releases/32/Schedule"&gt;Fedora 32&lt;/a&gt;, however, is still in the works. &lt;a class="reference external" href="https://fedoramagazine.org/announcing-fedora-31/"&gt;Fedora 31&lt;/a&gt; was only released
+recently. Therefore, in the meantime, as a Beta test, the NeuroFedora team is
+generating an ISO based on &lt;a class="reference external" href="https://fedoramagazine.org/announcing-fedora-31/"&gt;Fedora 31&lt;/a&gt; ourselves.  You can get it &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/install-media/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is based on the Fedora Workstation, which is an excellent &lt;a class="reference external" href="https://gnome.org"&gt;GNOME&lt;/a&gt; based
+operating system for users. To the Fedora Workstation, we added a variety of
+simulators and analysis tools that are used in computational neuroscience, such
+as: auryn, bionetgen, calcium-calculator, COPASI, qalculate, getdp,
+genesis-simulator, gnuplot, moose, nest, neuron, neurord, octave, paraview,
+python3, brian2, ipython, nest, neuron, libNeuroML, neo, nineml, PyLEMS, and
+smoldyn.&lt;/p&gt;
+&lt;p&gt;It also includes the complete Python Science stack: matplotlib, jupyter
+notebook, numpy, pandas, pillow, scikit-image, scikit-learn, scipy,
+statsmodels, and sympy.&lt;/p&gt;
+&lt;p&gt;If you use these tools, please give it a go and see what you think. You can
+contact us using one of our &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/communicating/"&gt;communication channels&lt;/a&gt; (also
+linked in the top bar of this site). If you use a tool that is not included in
+&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; yet, you can also suggest it for inclusion using &lt;a class="reference external" href="https://goo.gl/forms/j6AJ82yOh78MPxby1"&gt;this form&lt;/a&gt;.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="News"></category><category term="Auryn"></category><category term="Brian"></category><category term="Computational Modelling"></category><category term="Fedora Lab"></category><category term="GENESIS"></category><category term="NEST"></category><category term="Neuron"></category><category term="NEURON"></category><category term="PyNN"></category><category term="Python"></category><category term="Quality Assurance"></category></entry><entry><title>NEST 2.18.0 (and 2.16.0) are ready for use on NeuroFedora</title><link href="https://neuroblog.fedoraproject.org/2019/08/13/nest-2-18-0-and-2-16-0-are-ready-for-use-on-neurofedora.html" rel="alternate"></link><published>2019-08-13T09:27:17+01:00</published><updated>2019-08-13T09:27:17+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-08-13:/2019/08/13/nest-2-18-0-and-2-16-0-are-ready-for-use-on-neurofedora.html</id><summary type="html">&lt;p class="first last"&gt;NEST 2.18.0 and 2.16.0 are ready to use on &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;!&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="The NEST simulator" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20190813-nest-logo.png" style="width: 100%;" /&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;After a bit of work and testing, NEST 2.18.0 and 2.16.0 are now both available
+for use on &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;. The docs have also been updated to include complete
+instructions on how to install and use these tools:
+&lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/nest/"&gt;https://docs.fedoraproject.org/en-US/neurofedora/nest/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here are a few quick FAQs for your convenience:&lt;/p&gt;
+&lt;p&gt;Q: How do I use NEST on NeuroFedora?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It only takes two steps to install NEST using &lt;code&gt;dnf&lt;/code&gt; (the default package manager):&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Download and run (optionally install) a &amp;quot;live&amp;quot; Fedora Workstation image from &lt;a class="reference external" href="https://getfedora.org"&gt;https://getfedora.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Install NEST 2.18.0: Run &lt;code&gt;sudo dnf install python3-nest&lt;/code&gt; in a terminal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Q: How do I use version 2.16.0?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2.16.0 is provided as a &amp;quot;module&amp;quot;. To install the 2.16.0 version:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Download and run (optionally install) a &amp;quot;live&amp;quot; Fedora Workstation image from &lt;a class="reference external" href="https://getfedora.org"&gt;https://getfedora.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Install NEST 2.16.0: Run &lt;code&gt;sudo dnf module install nest:2.16.0&lt;/code&gt; in a terminal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please note that only one version of NEST can be installed at once.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Q: Does NEST in NeuroFedora include MPI support?&lt;/p&gt;
+&lt;blockquote&gt;
+Yes---variants built with both MPICH and OpenMPI are available to use.&lt;/blockquote&gt;
+&lt;p&gt;Q: Does NEST in NeuroFedora include libneurosim/MUSIC/CSA: support?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Not all of them yet.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;libneurosim: Yes&lt;/li&gt;
+&lt;li&gt;MUSIC: No (under review: &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/28"&gt;https://pagure.io/neuro-sig/NeuroFedora/issue/28&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;CSA:  No (WIP: &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/33"&gt;https://pagure.io/neuro-sig/NeuroFedora/issue/33&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Q: Where do I get help?&lt;/p&gt;
+&lt;blockquote&gt;
+The NeuroFedora team maintains multiple communication channels for support and general discussion: &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/communicating/"&gt;https://docs.fedoraproject.org/en-US/neurofedora/communicating/&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;Q: What other tools does NeuroFedora provide?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The complete list includes neuron, auryn, PyLEMS, NineML and lots more: &lt;a class="reference external" href="https://src.fedoraproject.org/group/neuro-sig"&gt;https://src.fedoraproject.org/group/neuro-sig&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fedora also includes more software that is not specific to computational neuroscience---such as productivity and development tools, a variety of desktop environments, server and container focussed editions, and other science related software:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://getfedora.org/"&gt;https://getfedora.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://labs.fedoraproject.org/"&gt;https://labs.fedoraproject.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://spins.fedoraproject.org/"&gt;https://spins.fedoraproject.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+</content><category term="News"></category><category term="NEST"></category><category term="Computational Modelling"></category><category term="Modularity"></category></entry><entry><title>Open Position: NeuroFedora is looking for a Spin/Lab master</title><link href="https://neuroblog.fedoraproject.org/2019/08/07/open-position-neurofedora-is-looking-for-a-spin-lab-master.html" rel="alternate"></link><published>2019-08-07T20:29:22+01:00</published><updated>2019-08-07T20:29:22+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-08-07:/2019/08/07/open-position-neurofedora-is-looking-for-a-spin-lab-master.html</id><summary type="html">&lt;p class="first last"&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is looking for a Spin/Lab master to help us provide an installable image.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;Now that we are about a year into the project, we have &lt;a class="reference external" href="https://src.fedoraproject.org/group/neuro-sig"&gt;quite a bit of software
+ready for users to use&lt;/a&gt;. Here
+is a dump of the complete list (find your tool!):&lt;/p&gt;
+&lt;p&gt;auryn, bionetgen, biosig4c++, calcium-calculator, COPASI, ctk, dcm2niix, dcmtk, DiffusionKurtosisFit, dlib, drawtk, gdcm, getdp, gifticlib, InsightToolkit, isis, libb64, liblsl, libminc, libneurosim, libsbml, nest, neuron, neurord, nipy-data, octave-metch, openigtlink, openmeeg, openvibe, petpvc, python-airspeed, python-amico, python-baker, python-bids-validator, python-biopython, python-brian2, python-chaospy, python-citeproc-py, python-dipy, python-duecredit, python-elephant, python-fastavro, python-fsleyes, python-fsleyes-props, python-fsleyes-widgets, python-fslpy, python-grabbit, python-gradunwarp, python-h5io, python-hdfs, python-hdmf, python-indexed_gzip, python-interfile, python-klusta, python-lazyarray, python-libNeuroML, python-matplotlib-scalebar, python-missingno, python-mne, python-mne-bids, python-moss, python-neo, python-neurosynth, python-nibabel, python-nilearn, python-nineml, python-nipy, python-nistats, python-nitime, python-nixio, python-num2words, python-patsy, python-petlink, python-pyactivetwo, python-pybids, python-pydicom, python-pydotplus, python-pyelectro, python-pyemd, python-pyfim, python-pygiftiio, python-pylatex, python-PyLEMS, python-PyLink, python-pymatreader, python-pynwb, python-pyoptical, python-pyphi, python-pyriemann, python-pysb, python-pyscaffold, python-pytest-lazy-fixture, python-pytest-sugar, python-pyxid, python-quantities, python-rangehttpserver, python-resumable-urlretrieve, python-simplewrap, python-tabulate, python-transforms3d, python-tvb-data, python-tvb-gdist, python-visionegg-quest, python-wxnatpy, python-xnat, rubygem-nifti, rudeconfig, smoldyn, teem, vrpn, vxl.&lt;/p&gt;
+&lt;p&gt;All of these tools can now be used in three simple steps:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Install a Fedora system. You can get the installable image from
+&lt;a class="reference external" href="https://getfedora.org"&gt;https://getfedora.org&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Install your software! For example: &lt;code&gt;sudo dnf install python-fsleyes&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Get to work!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Even though it is only three steps, it could still be made simpler. What if we
+could have a Fedora Remix that you could simply download and use?&lt;/p&gt;
+&lt;div class="section" id="what-is-a-fedora-spin-lab"&gt;
+&lt;h2&gt;What is a Fedora Spin/Lab?&lt;/h2&gt;
+&lt;p&gt;The Fedora community produces three &amp;quot;editions&amp;quot; that are featured on
+&lt;a class="reference external" href="https://getfedora.org"&gt;https://getfedora.org&lt;/a&gt;. However, these are not all! The community is full of
+volunteers with different interests, and so we also produce lots of secondary
+products---Fedora &lt;a class="reference external" href="https://spins.fedoraproject.org"&gt;Spins&lt;/a&gt; and Fedora &lt;a class="reference external" href="https://labs.fedoraproject.org"&gt;Labs&lt;/a&gt;. They are both downloadable images
+like the Fedora editions, with the difference being that they are contain
+different software sets.  The &lt;a class="reference external" href="https://spins.fedoraproject.org"&gt;Spins&lt;/a&gt; for example, include different default
+desktop environments: KDE, LXDE, LXQT, and so on. The &lt;a class="reference external" href="https://labs.fedoraproject.org"&gt;Labs&lt;/a&gt; consist of
+different &amp;quot;functional bundles&amp;quot;, for different target audiences: Astronomy,
+Design, Games, Security, and so on.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="neurofedora-lab"&gt;
+&lt;h2&gt;NeuroFedora Lab?&lt;/h2&gt;
+&lt;p&gt;So, the plan now is to have a similar downloadable image for &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;. If
+not a single image, maybe two: one each for the two main functional classes:
+one for computational modelling, and one for neuroimaging. So, effectively that
+will mean the process would become even simpler for users:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Download the image (and optionally install it).&lt;/li&gt;
+&lt;li&gt;Get to work!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here's why installing is optional. All Fedora images are &amp;quot;Live&amp;quot;. This means
+that you don't really need to install them to use them. You can boot into them
+off a USB drive and use them straight away---without installing them on a
+computer.  This could be very very useful for tutorials and hackathons where
+the organisers could have a bunch of these images ready for users to work on.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="we-are-looking-for-a-spin-lab-master"&gt;
+&lt;h2&gt;We are looking for a Spin/Lab master&lt;/h2&gt;
+&lt;p&gt;So, we are looking for someone to manage the image. We have a small team
+already, but we would like to keep the team focussed on including more
+software---&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=T%3A+Software"&gt;there are still 160 tools in queue&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The Spin/Lab master shall:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;help decide what tools should be included in the image,&lt;/li&gt;
+&lt;li&gt;lead the effort by using existing Fedora community infrastructure to create
+the images,&lt;/li&gt;
+&lt;li&gt;ensure the images are always functional and ready to use,&lt;/li&gt;
+&lt;li&gt;poke the rest of the team when needed to fix issues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The time commitment would be: 2-3 hours a week.&lt;/p&gt;
+&lt;p&gt;What skills do you need for this? None---like all other tasks, you can learn on
+the go. In general, you will use/learn:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Git (since most things in Fedora now use Git),&lt;/li&gt;
+&lt;li&gt;how to create a &amp;quot;kickstart&amp;quot; recipe---the configuration file that defines what
+the image contains. This is very well documented and mostly, you only have to
+copy paste the recipe off another image and tweak it.&lt;/li&gt;
+&lt;li&gt;how to use the Fedora community infrastructure to build these images---this
+is also quite easy since there are helper tools for all of it. All you have
+to do is run the commands in the right order.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It is quite an easy role, and there are lots of people in the Fedora community
+who would be happy to help when needed. There is a whole &lt;a class="reference external" href="https://fedoraproject.org/wiki/Spins_SIG"&gt;Spins Special
+Interest Group (SIG)&lt;/a&gt;, as a matter
+of fact. The toughest bit would be learning the process that is to be followed.&lt;/p&gt;
+&lt;p&gt;Does that sound interesting? Do you want to learn new skills and help us make
+&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; better and easier for neuroscience enthusiasts? Have any
+questions? &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/communicating/"&gt;Get in touch with us&lt;/a&gt;!&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="Community"></category><category term="Fedora Spin"></category><category term="Fedora Lab"></category><category term="Remix"></category></entry><entry><title>NEURON in NeuroFedora needs testing</title><link href="https://neuroblog.fedoraproject.org/2019/07/17/neuron-in-neurofedora-needs-testing.html" rel="alternate"></link><published>2019-07-17T08:52:51+01:00</published><updated>2019-07-17T08:52:51+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-07-17:/2019/07/17/neuron-in-neurofedora-needs-testing.html</id><summary type="html">&lt;p class="first last"&gt;The &lt;a class="reference external" href="https://www.neuron.yale.edu/neuron/"&gt;NEURON&lt;/a&gt; simulator in &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; requires testing&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;We have been working on including the &lt;a class="reference external" href="https://www.neuron.yale.edu/neuron/"&gt;NEURON&lt;/a&gt; simulator in &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; for a
+while now. The build process that &lt;a class="reference external" href="https://www.neuron.yale.edu/neuron/"&gt;NEURON&lt;/a&gt; uses has certain peculiarities that
+make it a little harder to build.&lt;/p&gt;
+&lt;p&gt;For those that are interested in the technical details, while the main &lt;a class="reference external" href="https://www.neuron.yale.edu/neuron/"&gt;NEURON&lt;/a&gt;
+core is built using the standard &lt;code&gt;./configure; make ; make install&lt;/code&gt;
+process that cleanly differentiates the &amp;quot;build&amp;quot; and &amp;quot;install&amp;quot; phases, the
+Python bits are built as a &amp;quot;post-install hook&amp;quot;. That is to say, they are built
+after the other bits in the &amp;quot;install&amp;quot; step instead of the &amp;quot;build&amp;quot; step. This
+implies that the build is not quite straightforward and must be slightly
+tweaked to ensure that the &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/packaging-guidelines/"&gt;Fedora packaging guidelines&lt;/a&gt; are met.&lt;/p&gt;
+&lt;p&gt;After discussing things on this &lt;a class="reference external" href="https://github.com/neuronsimulator/nrn/issues/238"&gt;Github issue&lt;/a&gt;, the developers,
+&lt;a class="reference external" href="https://github.com/nrnhines"&gt;&amp;#64;nrnhines&lt;/a&gt; (Michael Hines) and &lt;a class="reference external" href="https://ramcdougal.com/"&gt;&amp;#64;ramcdougal&lt;/a&gt; (Robert A McDougal) helped me understand the
+complexities of the build process and get it done. They have also mentioned
+that &lt;a class="reference external" href="https://www.neuron.yale.edu/neuron/"&gt;NEURON&lt;/a&gt; is now moving to a &lt;a class="reference external" href="https://cmake.org/"&gt;CMake&lt;/a&gt; based build system and should be simpler
+to work with in the future. &lt;a class="reference external" href="https://cmake.org/"&gt;CMake&lt;/a&gt; is generally nicer for projects that include
+different languages and build systems.&lt;/p&gt;
+&lt;p&gt;After a few hours of work, &lt;a class="reference external" href="https://www.neuron.yale.edu/neuron/"&gt;NEURON&lt;/a&gt; is now ready to use in &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;. It is
+built with Python 3, and does not currently provide IV and MPI bits. These will
+be worked upon later. Since &lt;a class="reference external" href="https://github.com/INCF/MUSIC"&gt;MUSIC&lt;/a&gt; is not yet in &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;, &lt;a class="reference external" href="https://www.neuron.yale.edu/neuron/"&gt;NEURON&lt;/a&gt; does not
+support &lt;a class="reference external" href="https://github.com/INCF/MUSIC"&gt;MUSIC&lt;/a&gt; either currently. This is also a &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/28"&gt;work in progress&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have tested the &lt;a class="reference external" href="https://www.neuron.yale.edu/neuron/"&gt;NEURON&lt;/a&gt; build on my machine with a few example simulations
+and it works well, but this cannot be considered exhaustive testing of the
+package. If you have a &lt;a class="reference external" href="https://getfedora.org"&gt;Fedora&lt;/a&gt; system, please test &lt;a class="reference external" href="https://www.neuron.yale.edu/neuron/"&gt;NEURON&lt;/a&gt; and let us know if
+you notice any issues. Here's how.&lt;/p&gt;
+&lt;div class="section" id="step-1-set-up-a-fedora-installation"&gt;
+&lt;h2&gt;Step 1: Set up a Fedora installation&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is based on &lt;a class="reference external" href="https://getfedora.org"&gt;Fedora&lt;/a&gt;, so the simplest way to use it is to install a
+Fedora Workstation using the live images available on &lt;a class="reference external" href="https://getfedora.org"&gt;https://getfedora.org&lt;/a&gt;.
+You can either install it on a system or use a virtual machine if you wish.
+&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; includes lots of other software for neuroscience also. You can
+learn more in our &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/software/"&gt;documentation&lt;/a&gt;.  &lt;a class="reference external" href="https://getfedora.org"&gt;Fedora&lt;/a&gt;, in
+general, provides lots of other software too. You can search them using the
+&lt;a class="reference external" href="https://apps.fedoraproject.org/packages/s/"&gt;Fedora Packages web application&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="step-2-install-neuron"&gt;
+&lt;h2&gt;Step 2: Install NEURON&lt;/h2&gt;
+&lt;p&gt;I would recommend updating your system before proceeding using &lt;code&gt;dnf&lt;/code&gt; in a
+terminal:&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+sudo dnf update --refresh
+&lt;/pre&gt;
+&lt;p&gt;Then, you can install &lt;a class="reference external" href="https://www.neuron.yale.edu/neuron/"&gt;NEURON&lt;/a&gt;. It is currently in the testing repositories, so
+they will need to be enabled for the command:&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+sudo dnf --enablerepo&lt;span class="o"&gt;=&lt;/span&gt;updates-testing install neuron python3-neuron
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="step-3-test-it-out"&gt;
+&lt;h2&gt;Step 3: Test it out&lt;/h2&gt;
+&lt;p&gt;Test it out with your models. Hopefully, everything will work fine. The &lt;a class="reference external" href="https://www.neuron.yale.edu/neuron/"&gt;NEURON&lt;/a&gt;
+documentation is here for those that would like to tinker with it too:
+&lt;a class="reference external" href="https://www.neuron.yale.edu/neuron/docs"&gt;https://www.neuron.yale.edu/neuron/docs&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="step-4-give-feedback"&gt;
+&lt;h2&gt;Step 4: Give feedback&lt;/h2&gt;
+&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="Bodhi logo" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20190716-Bodhi.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://bodhi.fedoraproject.org"&gt;Bodhi&lt;/a&gt;, the Fedora Quality Assurance web application.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;This step is optional, especially if everything works fine. If you experience
+any issues, please do get in touch with us. You can either contact us directly
+using one of our &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/communicating/"&gt;communication channels&lt;/a&gt;, or you
+can &lt;strong&gt;give karma&lt;/strong&gt; to the update on &lt;a class="reference external" href="https://bodhi.fedoraproject.org"&gt;Bodhi&lt;/a&gt;. The latter is preferred.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://bodhi.fedoraproject.org"&gt;Bodhi&lt;/a&gt; is the system &lt;a class="reference external" href="https://getfedora.org"&gt;Fedora&lt;/a&gt; uses for pushing updates to users. In a nutshell:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;a new version of software is released&lt;/li&gt;
+&lt;li&gt;the &lt;a class="reference external" href="https://getfedora.org"&gt;Fedora&lt;/a&gt; maintainer updates the &lt;a class="reference external" href="https://getfedora.org"&gt;Fedora&lt;/a&gt; package.&lt;/li&gt;
+&lt;li&gt;the maintainer submits the new &lt;a class="reference external" href="https://getfedora.org"&gt;Fedora&lt;/a&gt; package to &lt;a class="reference external" href="https://bodhi.fedoraproject.org"&gt;Bodhi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the package remains in the &lt;code&gt;updates-testing&lt;/code&gt; repositories while users
+test it out and provide feedback.&lt;/li&gt;
+&lt;li&gt;if the update receives positive feedback (positive karma), it is
+automatically pushed to the &lt;code&gt;updates&lt;/code&gt; repository for all users to
+receive the new version.&lt;/li&gt;
+&lt;li&gt;if the update receives negative feedback, the new version is not sent out to
+users and the maintainer must fix the reported issues and submit a new
+version of the package for testing again.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This workflow applies to all &lt;a class="reference external" href="https://getfedora.org"&gt;Fedora&lt;/a&gt; packages, thus ensuring that there's
+plenty of time for issues to be flagged before the software reaches users.  So,
+if you have a few minutes to spare, please help us by testing these packages
+out. The updates for Fedora 29 and Fedora 30 are both here:
+&lt;a class="reference external" href="https://bodhi.fedoraproject.org/updates/?packages=neuron"&gt;https://bodhi.fedoraproject.org/updates/?packages=neuron&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please note that this requires an &lt;a class="reference external" href="https://getfedora.org"&gt;Fedora&lt;/a&gt; account, since that's the account
+system that links all &lt;a class="reference external" href="https://getfedora.org"&gt;Fedora&lt;/a&gt; community infrastructure. This Fedora Magazine
+post provides an excellent resource on setting up a &lt;a class="reference external" href="https://getfedora.org"&gt;Fedora&lt;/a&gt; Account:
+&lt;a class="reference external" href="https://fedoramagazine.org/getting-set-up-with-fedora-project-services/"&gt;https://fedoramagazine.org/getting-set-up-with-fedora-project-services/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Detailed information on testing updates in &lt;a class="reference external" href="https://getfedora.org"&gt;Fedora&lt;/a&gt; can be found here on the
+Quality Assurance (QA) team's documentation:
+&lt;a class="reference external" href="https://fedoraproject.org/wiki/QA:Updates_Testing"&gt;https://fedoraproject.org/wiki/QA:Updates_Testing&lt;/a&gt;&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="News"></category><category term="NEURON"></category><category term="Quality Assurance"></category><category term="Bodhi"></category></entry><entry><title>NeuroFedora poster at CNS*2019</title><link href="https://neuroblog.fedoraproject.org/2019/07/11/neurofedora-poster-at-cns-2019.html" rel="alternate"></link><published>2019-07-11T13:25:47+01:00</published><updated>2019-07-11T13:25:47+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-07-11:/2019/07/11/neurofedora-poster-at-cns-2019.html</id><summary type="html">&lt;p class="first last"&gt;Our poster for &lt;a class="reference external" href="https://www.cnsorg.org/cns-2019-quick"&gt;CNS*2019&lt;/a&gt; is ready!&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;With &lt;a class="reference external" href="https://www.cnsorg.org/cns-2019-quick"&gt;CNS*2019&lt;/a&gt; around the &lt;a class="reference external" href="https://www.cnsorg.org/cns-2019-calendar"&gt;corner&lt;/a&gt;, we worked on getting the
+&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; poster ready for the poster presentation session. Our poster is
+&lt;strong&gt;P96&lt;/strong&gt;, on the first poster session on &lt;a class="reference external" href="https://www.cnsorg.org/cns-2019-poster-presentation-guide#14"&gt;the 14th of July&lt;/a&gt;. The poster
+is also shown below:&lt;/p&gt;
+&lt;center&gt;
+    &lt;object data="https://neuroblog.fedoraproject.org/extra/2019-CNS-NeuroFedora.pdf" type="application/pdf" width="80%" height="800"&gt;
+      Your browser does not support previewing PDF files.
+      Please &lt;a href="https://neuroblog.fedoraproject.org/extra/2019-CNS-NeuroFedora.pdf"&gt;download&lt;/a&gt; the file to view it.
+    &lt;/object&gt;
+&lt;/center&gt;&lt;p&gt;The poster is made available under a &lt;a class="reference external" href="https://creativecommons.org/licenses/by/4.0/"&gt;CC-By license&lt;/a&gt;. Please feel free to share it
+around.&lt;/p&gt;
+&lt;p&gt;The current team already consists of more people than the authors listed on the
+poster. The authors here were only the first set, and as the team grows, so
+will our author list for future publications. In general, we follow the
+standard rule: if one has contributed to the project since the previous
+publication, they get their name on the poster.&lt;/p&gt;
+&lt;p&gt;Unfortunately, this time, no one from the team is able to attend the
+conference, but if you are there and want to learn more about &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;,
+please get in touch with us using any of our communication channels.&lt;/p&gt;
+&lt;p&gt;To everyone that will be in Barcelona for the conference, we hope you have a
+fruitful one, and of course, we hope you are able to make some time to rest at
+the beach too.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+</content><category term="News"></category><category term="CNS*2019"></category></entry><entry><title>New badge, stickers, and software updates</title><link href="https://neuroblog.fedoraproject.org/2019/07/01/new-badge-stickers-and-software-updates.html" rel="alternate"></link><published>2019-07-01T10:39:11+01:00</published><updated>2019-07-01T10:39:11+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-07-01:/2019/07/01/new-badge-stickers-and-software-updates.html</id><summary type="html">&lt;p class="first last"&gt;In week 27 in &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;, the update includes: a new badge on
+&lt;a class="reference external" href="https://badges.fedoraproject.org/"&gt;Fedora badges&lt;/a&gt;, a new batch of stickers, and the usual updates on
+the software set.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="A Fedora badge for NeuroFedora contributors." class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20190701-neuro-fedora-badge.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&amp;quot;You are a member of the NeuroFedora SIG&amp;quot; badge by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Tanvi"&gt;tanvi&lt;/a&gt; and &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Blackfile"&gt;blackfile&lt;/a&gt; for &lt;a class="reference external" href="https://pagure.io/fedora-badges/issue/678"&gt;Fedora Badges #678&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;This post departs from the usual template, mainly because we have new artwork
+to show off and so will, for once, not use the logo in this post.&lt;/p&gt;
+&lt;p&gt;I had only half jokingly suggested a &amp;quot;terminator panda&amp;quot; to give the badge a bit
+of a fun and was very pleasantly surprised when &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Tanvi"&gt;tanvi&lt;/a&gt; came up with a concept
+art! After an iteration or two, &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Blackfile"&gt;blackfile&lt;/a&gt;'s concept that included the logo was
+merged with the panda terminator to give us the final one that's shown here.&lt;/p&gt;
+&lt;p&gt;For those who may not be aware, &amp;quot;&lt;a class="reference external" href="https://badges.fedoraproject.org/"&gt;Fedora badges&lt;/a&gt; is a fun website built to
+recognize contributors to the Fedora Project, help new and existing Fedora
+contributors find different ways to get involved, and encourage the improvement
+of Fedora's infrastructure.&amp;quot; You can learn about them more on the website's
+about page, &lt;a class="reference external" href="https://badges.fedoraproject.org/about"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So, please &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/contributing/"&gt;join the team&lt;/a&gt;, do
+whatever interests you: software packaging, testing, designing, documentation
+writing, simply speak about Free Software, or absolutely anything that will
+help us make Science similarly Free for everyone. The current team is listed
+&lt;a class="reference external" href="https://pagure.io/group/neuro-sig"&gt;here in the Pagure neuro-sig group&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Since we're going to present a poster at &lt;a class="reference external" href="https://www.cnsorg.org/cns-2019-quick"&gt;CNS*2019&lt;/a&gt;, and meet at &lt;a class="reference external" href="https://flocktofedora.org/"&gt;Flock&lt;/a&gt;, we also &lt;a class="reference external" href="https://pagure.io/design/issue/627"&gt;requested&lt;/a&gt; the &lt;a class="reference external" href="https://fedoraproject.org/wiki/Design"&gt;Fedora Design team&lt;/a&gt; to make us a sticker that we could
+give out. They, of course, delivered---they always do! After a few iterations
+under &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Duffy"&gt;duffy&lt;/a&gt;'s guidance, &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Tanvi"&gt;tanvi&lt;/a&gt;, &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Terezahl"&gt;terezahl&lt;/a&gt;, and &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Asrootuser"&gt;asrootuser&lt;/a&gt; put forward ideas
+that resulted in this beauty:&lt;/p&gt;
+&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="The NeuroFedora sticker!" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20190701-sticker.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;PNG version of the NeuroFedora sticker by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Tanvi"&gt;tanvi&lt;/a&gt;, &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Terezahl"&gt;terezahl&lt;/a&gt;, and &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Asrootuser"&gt;asrootuser&lt;/a&gt; for &lt;a class="reference external" href="https://pagure.io/design/issue/627"&gt;Fedora Design #627&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;I've &lt;a class="reference external" href="https://www.stickermule.com/uk/artworks/3195402?token=caa3f965c743f145a3d15e133565452a"&gt;ordered a batch of stickers off Stickermule&lt;/a&gt;
+already. Since the artwork is now part of Stickermule's catalogue, I can also
+easily re-order more in the future. I &lt;em&gt;think&lt;/em&gt; others can too, but I'm not sure.
+In any case, the sources for the stickers, like our logo are on &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/blob/master/f/Artwork"&gt;here on our
+Pagure repository&lt;/a&gt;. In the
+future, depending on how much funding we can gather, we may even be able to
+send stickers to folks. For the moment, though, we'll only give them out to
+people we meet at conferences to save on postage.&lt;/p&gt;
+&lt;p&gt;(Please read through the &lt;a class="reference external" href="https://fedoraproject.org/wiki/Legal:Trademark_guidelines"&gt;Trademark Guidelines&lt;/a&gt; before using and
+sharing any Fedora related content, by the way.)&lt;/p&gt;
+&lt;p&gt;At the end of the post, here the usual short update on the state of software in
+&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-elephant"&gt;python-elephant&lt;/a&gt; is
+now included in the Fedora repositories.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-pylatex"&gt;python-PyLaTeX&lt;/a&gt; also.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-neurosynth"&gt;python-neurosynth&lt;/a&gt;
+was also added.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We're still working on including more tools. NEST 2.18.0 &lt;a class="reference external" href="https://github.com/nest/nest-simulator/releases/tag/v2.18.0"&gt;was recently released&lt;/a&gt; so we'll
+update that soon also. Still &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Needs+packaging"&gt;quite a queue for us to work through&lt;/a&gt;,
+but we're making steady progress!&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+</content><category term="News"></category><category term="Fedora badges"></category><category term="Stickermule"></category><category term="GENESIS"></category><category term="Python"></category><category term="Elephant"></category><category term="Neurosynth"></category><category term="PyLaTeX"></category></entry><entry><title>Keeping software in NeuroFedora up to date</title><link href="https://neuroblog.fedoraproject.org/2019/06/06/keeping-software-in-neurofedora-up-to-date.html" rel="alternate"></link><published>2019-06-06T11:55:58+01:00</published><updated>2019-06-06T11:55:58+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-06-06:/2019/06/06/keeping-software-in-neurofedora-up-to-date.html</id><summary type="html">&lt;p class="first last"&gt;This post summarises the process that the &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; package
+maintainers follow to keep the software set up to date.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Given the large number of software updates we published recently, we thought
+this is a good chance to explain how the &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; team (and the Fedora
+package maintainers team in general) stays on top of all of this software that
+is constantly being updated and improved.&lt;/p&gt;
+&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://neuroblog.fedoraproject.org/images/PackageMaintainerFlowChart.png"&gt;&lt;img alt="Simplified schematic of the package maintenance workflow in Fedora" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/PackageMaintainerFlowChart.png" style="width: 50%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;As the (simplified) figure shows, there is a well defined process to ensure
+that we keep our software in good shape---updating it all in a timely manner.
+The &lt;a class="reference external" href="https://apps.fedoraproject.org"&gt;Fedora Infrastructure team&lt;/a&gt; maintains
+lots of tools to enable the community in this aspect too, and all of these
+tools continuously evolve as the community moves to newer directions.&lt;/p&gt;
+&lt;p&gt;In the sections below, we go over the process step by step.&lt;/p&gt;
+&lt;div class="section" id="upstream-releases-a-new-version"&gt;
+&lt;h2&gt;1. Upstream releases a new version&lt;/h2&gt;
+&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://neuroblog.fedoraproject.org/images/20190603-indexed-gzip.png"&gt;&lt;img alt="Screenshot: upstream releases a new version of indexed-gzip on Github" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20190603-indexed-gzip.png" style="width: 90%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;It all starts with &lt;em&gt;upstream&lt;/em&gt; releasing a new version.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Upstream&lt;/em&gt; are the developers of the software. We at &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; (and most
+Linux distributions) are &lt;em&gt;downstream&lt;/em&gt;: we take developed software, build and
+integrate it all, and provide it in easily installable &lt;em&gt;packages&lt;/em&gt; to users.&lt;/p&gt;
+&lt;p&gt;On Fedora, these packages are provided as &lt;code&gt;rpm&lt;/code&gt; archives via the
+repositories. Other distributions may use other formats.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="anitya-notifies-us-maintainers-via-bugzilla"&gt;
+&lt;h2&gt;2. Anitya notifies us maintainers via Bugzilla&lt;/h2&gt;
+&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://neuroblog.fedoraproject.org/images/20190603-indexed-gzip-anitya.png"&gt;&lt;img alt="Screenshot: Anitya detects the new version." class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20190603-indexed-gzip-anitya.png" style="width: 90%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Anitya&lt;/strong&gt;  runs at &lt;a class="reference external" href="https://release-monitoring.org"&gt;https://release-monitoring.org&lt;/a&gt; and monitors upstream for
+new versions.  &lt;a class="reference external" href="https://github.com/release-monitoring/anitya"&gt;Anitya&lt;/a&gt; is
+able to monitor different upstream release methods such as Github, PyPi,
+Sourceforge, Gitlab, and so on.  When Anitya detects a new version it first
+checks to see what version of this software we are currently providing in
+Fedora. If it sees that the Fedora version is older than the new upstream
+version that it has detected, it files a bug on our community bug tracker at
+&lt;a class="reference external" href="https://bugzilla.redhat.com"&gt;https://bugzilla.redhat.com&lt;/a&gt; notifying the maintainers.&lt;/p&gt;
+&lt;p&gt;TIP: you can use the Fedora packages application at
+&lt;a class="reference external" href="https://apps.fedoraproject.org/packages"&gt;https://apps.fedoraproject.org/packages&lt;/a&gt; to search the full list of software
+that is currently included in Fedora. If you already know the name of the
+package, you can use &lt;code&gt;https://bugz.fedoraproject.org/&amp;lt;package name&amp;gt;&lt;/code&gt;
+(replace &lt;code&gt;&amp;lt;package name&amp;gt;&lt;/code&gt; with the name of the package, such as
+&lt;code&gt;nest&lt;/code&gt;) to go straight to a package's summary page.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="maintainers-test-and-update-the-fedora-package"&gt;
+&lt;h2&gt;3. Maintainers test and update the Fedora package&lt;/h2&gt;
+&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://neuroblog.fedoraproject.org/images/20190603-indexed-gzip-bugzilla.png"&gt;&lt;img alt="Screenshot: Anitya files a bug notifying the maintainers" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20190603-indexed-gzip-bugzilla.png" style="width: 90%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Once the bug has been filed, the next steps require manual work. There are
+tools to make it all easier, but this is where we humans come in.&lt;/p&gt;
+&lt;p&gt;One of the &lt;a class="reference external" href="https://src.fedoraproject.org/group/neuro-sig"&gt;NeuroFedora package maintainers&lt;/a&gt; notices the bug and begins
+to work on it. All notifications from bugzilla are sent to the &lt;a class="reference external" href="https://lists.fedoraproject.org/archives/list/neurofedora&amp;#64;lists.fedoraproject.org/"&gt;neuro-sig
+mailing list&lt;/a&gt;,
+so the team is usually always aware of these.&lt;/p&gt;
+&lt;p&gt;First, we fetch the new source code and test it to see how it has changed in
+the new release. Is it a minor release with bug-fixes and enhancements, or is
+it a major release where lots of functionality has changed?&lt;/p&gt;
+&lt;p&gt;Sometimes, especially with development libraries, there are API/ABI changes
+that make the new version incompatible with the older ones. In such cases, we
+have to see how &lt;em&gt;all&lt;/em&gt; other software that depends on these is affected.  This
+is documented in the &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/fesco/Updates_Policy/"&gt;community policy on updating software&lt;/a&gt;. The idea is
+that when new versions of software are released, as package maintainers, one of
+our duties is to ensure that the new versions do not break existing
+systems for our users.&lt;/p&gt;
+&lt;p&gt;If there is software that does not work with the latest versions, we
+maintainers try to help developers update their code. Here are some examples
+where we've notified maintainers:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/neuronsimulator/nrn/issues/145"&gt;Neuron: use newer libstdc++&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/neuronsimulator/nrn/issues/113"&gt;Neuron: use a more recent SUNDIALS version&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/vxl/vxl/issues/627"&gt;VXL: use newer openjpeg2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/vxl/vxl/issues/550"&gt;VXL: use newer DCMTK&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When possible, we do try to provide patches and open pull requests. However,
+this depends on how much time we maintainers have and of course, it also
+depends on the complexity of the codebase.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/NeuralEnsemble/libNeuroML/pull/86"&gt;libNeuroML: tweaks to manifest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/genesis-sim/genesis-2.4/pull/3"&gt;genesis: update scripts to use python3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In general, &lt;strong&gt;we try to stay as close to upstream as possible&lt;/strong&gt;. This page
+lists the advantages of doing so:
+&lt;a class="reference external" href="https://fedoraproject.org/wiki/Staying_close_to_upstream_projects"&gt;https://fedoraproject.org/wiki/Staying_close_to_upstream_projects&lt;/a&gt;&lt;/p&gt;
+&lt;div class="section" id="a-maintainers-update-the-spec-file-and-build-new-rpms"&gt;
+&lt;h3&gt;3a. Maintainers update the spec file and build new rpms&lt;/h3&gt;
+&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://neuroblog.fedoraproject.org/images/20190603-indexed-gzip-sources.png"&gt;&lt;img alt="Screenshot: A package maintainer updates the *spec* file." class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20190603-indexed-gzip-sources.png" style="width: 90%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If everything seems to work fine after we've managed to fix any issues, we
+begin to update the Fedora package. The first step here is to update the &lt;em&gt;spec&lt;/em&gt;
+file. The &lt;em&gt;spec&lt;/em&gt; file resides in the package's dist-git repository on
+&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/"&gt;https://src.fedoraproject.org/rpms/&lt;/a&gt; where other Fedora tools can access it.
+When this has been updated to build the newest release, we queue up a new build
+on the &lt;a class="reference external" href="https://koji.fedoraproject.org/koji/"&gt;Koji build system&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;spec&lt;/em&gt; files provide instructions that tell the &lt;code&gt;rpmbuild&lt;/code&gt; tool how to
+build the software, and where all its files should go in the &lt;code&gt;rpm&lt;/code&gt;
+package. More information on the process can be found &lt;a class="reference external" href="https://fedoraproject.org/wiki/Category:Package_Maintainers#Introduction_to_packaging"&gt;here&lt;/a&gt;.
+You can see a relatively simple &lt;em&gt;spec&lt;/em&gt; file for &lt;code&gt;python-indexed_gzip&lt;/code&gt; &lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-indexed_gzip/blob/master/f/python-indexed_gzip.spec"&gt;here&lt;/a&gt;.
+&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/nest/blob/master/f/nest.spec"&gt;This one&lt;/a&gt;
+for the &lt;code&gt;nest&lt;/code&gt; simulator, however, is a lot more complex since we must
+build it with MPI support also. If you want to see a real scary &lt;em&gt;spec&lt;/em&gt; file,
+though, look at &lt;a class="reference external" href="https://src.fedoraproject.org/rpms/texlive/blob/master/f/texlive.spec"&gt;this one&lt;/a&gt; for
+the &lt;code&gt;texlive&lt;/code&gt; package. It is auto generated from the &lt;a class="reference external" href="http://www.tug.org/texlive/"&gt;texlive&lt;/a&gt; sources, but you can imagine how hard it must
+be to debug.&lt;/p&gt;
+&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://neuroblog.fedoraproject.org/images/20190603-indexed-gzip-koji.png"&gt;&lt;img alt="Screenshot: A package maintainer queues up a new build." class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20190603-indexed-gzip-koji.png" style="width: 90%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The build system handles all our supported arches unless told not to do so.
+Currently, the Fedora community supports: &lt;code&gt;x86_64, i686, armv7hl,
+aarch64, ppc64le, s390x&lt;/code&gt;. More information on these architectures can be found
+&lt;a class="reference external" href="https://fedoraproject.org/wiki/Architectures"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="quality-assurance-the-community-tests-the-updated-packages"&gt;
+&lt;h2&gt;4. Quality assurance: the community tests the updated packages&lt;/h2&gt;
+&lt;p&gt;Once the builds have completed successfully, we push the builds to our &lt;a class="reference external" href="https://fedoraproject.org/wiki/QA"&gt;Quality
+Assurance&lt;/a&gt; pipeline for testing.&lt;/p&gt;
+&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://neuroblog.fedoraproject.org/images/20190603-indexed-gzip-bodhi.png"&gt;&lt;img alt="Screenshot: The Bodhi QA system manages our updates and their testing." class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20190603-indexed-gzip-bodhi.png" style="width: 90%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;It isn't enough to get the software to build correctly. We must also ensure
+that it &lt;em&gt;works&lt;/em&gt; correctly.  The pipeline lets community members (including
+users) &lt;em&gt;test&lt;/em&gt; these updated packages in a &lt;em&gt;staging repository&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;You can help test these updates.&lt;/em&gt; All you need to do is install them, and
+provide feedback. This is all explained &lt;a class="reference external" href="https://fedoraproject.org/wiki/QA:Updates_Testing"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="https://neuroblog.fedoraproject.org/images/20190603-indexed-gzip-bodhi-ind.png"&gt;&lt;img alt="Screenshot: An update on Bodhi that has been pushed to stable." class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20190603-indexed-gzip-bodhi-ind.png" style="width: 90%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If the packages pass the community's battery of automated checks, and testers
+provide positive feedback on their functioning, they are then moved from the
+staging repositories to the &lt;em&gt;stable&lt;/em&gt; repositories where they are available to
+all users.&lt;/p&gt;
+&lt;p&gt;These general steps are not limited to the &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; team. They are followed
+by all &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/project/#_what_is_fedora_all_about"&gt;Fedora community&lt;/a&gt;.
+&lt;a class="reference external" href="https://fedoraproject.org/wiki/Join_the_package_collection_maintainers"&gt;package maintainers&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-community-uses-develops-extends-shares-their-work"&gt;
+&lt;h2&gt;5. The community uses/develops/extends/shares their work&lt;/h2&gt;
+&lt;p&gt;When all this is done and the packages available to install via the different
+package management tools (&lt;code&gt;dnf&lt;/code&gt;/Gnome-software/DNFDragora/Discover),
+other community members are able to use, develop, extend, share and do more
+with these tools.&lt;/p&gt;
+&lt;p&gt;I don't like to use the word &amp;quot;users&amp;quot; because unlike let's say Nvidia who is a
+&amp;quot;vendor&amp;quot; and provides software to its &amp;quot;users&amp;quot;, Fedora is a community with a
+large portion of people using our software also helping maintain and develop
+it. Everyone who uses Fedora is already a community member, for they help us
+achieve our goal---to spread Free/Open source software and awareness about it.
+This is perhaps worth a whole post in itself, though.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="join-the-community"&gt;
+&lt;h2&gt;Join the community!&lt;/h2&gt;
+&lt;p&gt;Since community projects aren't profit focussed, instead of money, the resource
+we most need is man-power. Each new contributor increases the sum total man-power
+possessed by the community and this enables us to work with more software, help
+more developers, improve all of this software in general---get more work done.&lt;/p&gt;
+&lt;p&gt;If you've gotten this far, you would have probably realised that there is quite
+a bit of work to be done, and there are ample opportunities where you can help
+in this area of &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;/Fedora.  You can:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;suggest software for inclusion&lt;/li&gt;
+&lt;li&gt;package and maintain software&lt;/li&gt;
+&lt;li&gt;test packaged software&lt;/li&gt;
+&lt;li&gt;file bugs and report issues&lt;/li&gt;
+&lt;li&gt;help maintain the tools that are required to keep the community ticking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More information on all of this is included in our documentation &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/contributing/"&gt;here&lt;/a&gt;. The
+easiest way, though, is probably just to have a chat with the team. Catch us
+anytime on our &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/communicating/"&gt;communication channels&lt;/a&gt;.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="Community"></category><category term="Software development"></category><category term="RPM"></category><category term="Packaging"></category></entry><entry><title>Fedora science/research get together at Flock</title><link href="https://neuroblog.fedoraproject.org/2019/05/29/fedora-science-research-get-together-at-flock.html" rel="alternate"></link><published>2019-05-29T10:22:17+01:00</published><updated>2019-05-29T10:22:17+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-05-29:/2019/05/29/fedora-science-research-get-together-at-flock.html</id><summary type="html">&lt;p class="first last"&gt;It is time we started preparing for &lt;a class="reference external" href="https://flocktofedora.org/"&gt;Flock&lt;/a&gt;!&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;This year, &lt;a class="reference external" href="https://flocktofedora.org/"&gt;Flock&lt;/a&gt; will be held in Budapest from August 8--11.
+As part of &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;, we've already proposed a talk to discuss how Free/Open
+source software links very very well with Free/Open science. Please see the
+proposal here, and give feedback: &lt;a class="reference external" href="https://pagure.io/flock/issue/112"&gt;https://pagure.io/flock/issue/112&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Apart from that, given that a large number of community members congregate at
+&lt;a class="reference external" href="https://flocktofedora.org/"&gt;Flock&lt;/a&gt;, it may be a good chance to get together those of us that work in
+science/research and related areas. So, if you are planning to attend &lt;a class="reference external" href="https://flocktofedora.org/"&gt;Flock&lt;/a&gt;
+and work in, or are interested in science/research, please drop a note at this
+tracker ticket: &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/242"&gt;https://pagure.io/neuro-sig/NeuroFedora/issue/242&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If we have enough of us, we can look at proposing a hackathon also. The first
+round of CFPs for flock starts on June 1. So we won't make it for that. We
+should be able to make it for the second round on June 15, though.&lt;/p&gt;
+&lt;p&gt;Please, spread the word!&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+</content><category term="Community"></category><category term="Flock"></category></entry><entry><title>NeuroFedora update: 2019 week 22</title><link href="https://neuroblog.fedoraproject.org/2019/05/28/neurofedora-update-2019-week-22.html" rel="alternate"></link><published>2019-05-28T11:29:33+01:00</published><updated>2019-05-28T11:29:33+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-05-28:/2019/05/28/neurofedora-update-2019-week-22.html</id><summary type="html">&lt;p class="first last"&gt;An update on &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; in the 22nd week of 2019: more software
+updates.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;An update on what we have been up to at &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is long &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/232"&gt;overdue&lt;/a&gt;!
+In the last few weeks, all of these were updated to their latest versions and
+are now available to &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; users:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-missingno"&gt;python-missingno&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-nineml"&gt;python-nineml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-dipy"&gt;python-dipy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-pybids"&gt;python-pybids&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-brian2"&gt;python-brian2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-pymatreader"&gt;python-pymatreader&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-pysb"&gt;python-pysb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-libNeuroML"&gt;python-libNeuroML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-efel"&gt;python-efel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-petlink"&gt;python-petlink&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-grabbit"&gt;python-grabbit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-xnat"&gt;python-xnat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-chaospy"&gt;python-chaospy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-nilearn"&gt;python-nilearn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-pynwb-"&gt;python-pynwb-&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/python-hdfs"&gt;python-hdfs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The contain various bug fixes and enhancements. Please update your system to
+the latest versions using &lt;cite&gt;dnf&lt;/cite&gt;. You can also use the graphical package manager
+that you prefer. &lt;cite&gt;dnf&lt;/cite&gt;, however, will work on all installations (apart from
+&lt;a class="reference external" href="https://silverblue.fedoraproject.org/"&gt;Silverblue&lt;/a&gt; which is rpm-ostree based.).&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+sudo dnf update --refresh
+&lt;/pre&gt;
+&lt;p&gt;As I write this post, the newest version of &lt;a class="reference external" href="https://src.fedoraproject.org/rpms/vxl"&gt;VXL&lt;/a&gt; is building on the system. This
+took quite a bit of work to update but that is a story for another day :)&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+</content><category term="News"></category><category term="Software"></category></entry><entry><title>NeuroFedora update: 2019 week 13</title><link href="https://neuroblog.fedoraproject.org/2019/03/25/neurofedora-update-2019-week-13.html" rel="alternate"></link><published>2019-03-25T11:18:32+00:00</published><updated>2019-03-25T11:18:32+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-03-25:/2019/03/25/neurofedora-update-2019-week-13.html</id><summary type="html">&lt;p class="first last"&gt;An update on &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; in the 13th week of 2019: more software
+updates, future plans, next team meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;More software has been submitted for review and included in &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;. We
+keep making steady progress on that front. Please keep an eye on our
+documentation to see what new tools are now available for use in &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We have also submitted an abstract for &lt;a class="reference external" href="https://www.cnsorg.org/cns-2019"&gt;CNS*2019&lt;/a&gt; to present at poster at the conference
+introducing NeuroFedora to the computational neuroscience research community.
+So, we do hope to see you there (Ankur will be at &lt;a class="reference external" href="https://www.cnsorg.org/cns-2019"&gt;CNS*2019&lt;/a&gt; anyway).&lt;/p&gt;
+&lt;p&gt;We are always looking for more people to join the team. At the moment, we are
+looking for people to fill these two roles:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Spin/Lab master: to have a ready-to-use downloadable ISO, we'd like to work
+on a Fedora based NeuroFedora &amp;quot;lab&amp;quot;. We are looking for a &lt;a class="reference external" href="https://lists.fedoraproject.org/archives/list/neuro-sig&amp;#64;lists.fedoraproject.org/message/5DAKTDPJRRSLCB76EGYH7K5RACEFYTMU/"&gt;spin/lab master&lt;/a&gt;
+to lead this goal.  &lt;a class="reference external" href="https://labs.fedoraproject.org/"&gt;(What is a Fedora spin/lab?)&lt;/a&gt;. The skills needed for this task are:&lt;ul&gt;
+&lt;li&gt;knowledge of &lt;a class="reference external" href="https://git-scm.com/"&gt;Git&lt;/a&gt; and &lt;a class="reference external" href="https://git-scm.com/"&gt;Git&lt;/a&gt; based workflows: &lt;a class="reference external" href="https://pagure.io"&gt;Pagure&lt;/a&gt;/&lt;a class="reference external" href="https://gitlab.com"&gt;Gitlab&lt;/a&gt;/&lt;a class="reference external" href="https://github.com"&gt;Github&lt;/a&gt;/&lt;a class="reference external" href="https://bitbucket.com"&gt;Bitbucket&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;knowledge of how &lt;a class="reference external" href="https://dnf.readthedocs.io/en/latest/"&gt;DNF&lt;/a&gt; works.&lt;/li&gt;
+&lt;li&gt;knowledge of the Fedora Spin process and associated tools (kickstart files, for example).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Documentation master: given how important end-user documentation is, we are
+looking for a documentation master to ensure ours is up to the mark. For this
+role, the required skills are:&lt;ul&gt;
+&lt;li&gt;knowledge of &lt;a class="reference external" href="https://git-scm.com/"&gt;Git&lt;/a&gt; and &lt;a class="reference external" href="https://git-scm.com/"&gt;Git&lt;/a&gt; based workflows: &lt;a class="reference external" href="https://pagure.io"&gt;Pagure&lt;/a&gt;/&lt;a class="reference external" href="https://gitlab.com"&gt;Gitlab&lt;/a&gt;/&lt;a class="reference external" href="https://github.com"&gt;Github&lt;/a&gt;/&lt;a class="reference external" href="https://bitbucket.com"&gt;Bitbucket&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;knowledge of &lt;a class="reference external" href="http://asciidoc.org/"&gt;Asciidoc&lt;/a&gt; and &lt;a class="reference external" href="https://antora.org/"&gt;Antora&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;knowledge of &lt;a class="reference external" href="https://www.docker.com/"&gt;Docker&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If any of these roles interest you, please get in touch with the &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;
+team. You needn't have these skills already---you can learn these from the
+&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; team as you go along.&lt;/p&gt;
+&lt;p&gt;The next Open NeuroFedora meeting is on the &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+team+meeting+%232&amp;amp;iso=20190326T22&amp;amp;p1=136&amp;amp;ah=1"&gt;26th of March at 2200GMT/UTC&lt;/a&gt;.
+We will discuss our progress, and what we need to do next. It is time we
+started preparing for &lt;a class="reference external" href="https://www.cnsorg.org/cns-2019"&gt;CNS*2019&lt;/a&gt; too, so we will discuss what software we
+would like to showcase there.&lt;/p&gt;
+&lt;p&gt;The meeting will be held on our &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;IRC/Telegram channel&lt;/a&gt;.
+It is open for all to attend. Please pop by!&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+</content><category term="News"></category><category term="Software"></category><category term="Blog"></category><category term="Documentation"></category><category term="Fedora Lab"></category><category term="Fedora Spin"></category><category term="Contribution&#10;opportunity"></category></entry><entry><title>NeuroFedora update: 2019 week 7</title><link href="https://neuroblog.fedoraproject.org/2019/02/17/neurofedora-update-2019-week-7.html" rel="alternate"></link><published>2019-02-17T13:32:27+00:00</published><updated>2019-02-17T13:32:27+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-02-17:/2019/02/17/neurofedora-update-2019-week-7.html</id><summary type="html">&lt;p class="first last"&gt;An update on &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; in the 7th week of 2019: more software
+updates.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;We continue to make progress on software that is to be included in
+&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/neuron"&gt;neuron&lt;/a&gt; was approved for inclusion and is now in testing. This is without MPI
+support, and does not currently contain Python bindings. These are both being
+worked on now.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://src.fedoraproject.org/rpms/auryn"&gt;auryn&lt;/a&gt; was approved for inclusion. While it builds fine on &lt;code&gt;x86_64,
+i686, ppc64&lt;/code&gt;, it does not build on other secondary architectures:
+&lt;code&gt;armv7hl, aarch64, s390x&lt;/code&gt;. So, we have filed a &lt;a class="reference external" href="https://github.com/fzenke/auryn/issues/33"&gt;ticket upstream&lt;/a&gt; to clarify if these are
+supported. You can read more about the architectures Fedora supports &lt;a class="reference external" href="https://fedoraproject.org/wiki/Architectures"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;various other packages were updated to their latest versions: &lt;a class="reference external" href="https://bodhi.fedoraproject.org/updates/?packages=python-fsleyes"&gt;fsleyes&lt;/a&gt;, &lt;a class="reference external" href="https://bodhi.fedoraproject.org/updates/?packages=python-pydicom"&gt;pydicom&lt;/a&gt;, and
+&lt;a class="reference external" href="https://bodhi.fedoraproject.org/updates/?packages=python-nibabel"&gt;nibabel&lt;/a&gt;. You
+can test them by enabling the updates-testing repository and give feedback on
+these updates (documented &lt;a class="reference external" href="https://fedoraproject.org/wiki/QA:Updates_Testing"&gt;here&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;A number of packages need to be updated to their latest versions.
+Unfortunately, a few of these bundle software that must be removed, so it
+takes more time than simple updates: &lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=1674578"&gt;InsightToolkit&lt;/a&gt;, &lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=1371436"&gt;vxl&lt;/a&gt;, &lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=1674946"&gt;gdcm&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;We announced NeuroFedora on &lt;a class="reference external" href="https://neurostars.org/t/neurofedora-free-software-for-free-neuroscience/3594"&gt;Neurostars&lt;/a&gt;
+today also.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In other news, &lt;a class="reference external" href="https://groups.google.com/forum/#!topic/neuralensemble/a4xnnPQ7dpM"&gt;PyNN is being considered as an INCF standard/best practice&lt;/a&gt;. If you
+do use it, please provide your comments.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+</content><category term="News"></category><category term="Software"></category><category term="Blog"></category><category term="Neuron"></category><category term="PyNN"></category><category term="Auryn"></category></entry><entry><title>NeuroFedora update: 2019 week 5</title><link href="https://neuroblog.fedoraproject.org/2019/02/02/neurofedora-update-2019-week-5.html" rel="alternate"></link><published>2019-02-02T18:21:32+00:00</published><updated>2019-02-02T18:21:32+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-02-02:/2019/02/02/neurofedora-update-2019-week-5.html</id><summary type="html">&lt;p class="first last"&gt;An update on &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; in the 5th week of 2019: more software
+updates.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;In the last week, we've continued to make progress on packages:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;The &lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=1662526"&gt;neuron&lt;/a&gt; review should be done in a few days. We can then begin on the
+MPI versions, and Python bindings.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/190"&gt;arbor&lt;/a&gt; is still a WIP. Here's a pre-print the developers published recently
+announcing it: &lt;a class="reference external" href="https://arxiv.org/abs/1901.07454"&gt;https://arxiv.org/abs/1901.07454&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Version 1 of the Brian Simulator is now available in the &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/copr/"&gt;NeuroFedora extras
+COPR repository&lt;/a&gt;. This version is in maintenance mode only and users should
+prefer the new &lt;a class="reference external" href="https://apps.fedoraproject.org/packages/python-brian2"&gt;Brian2&lt;/a&gt; simulator for their work. We only make version 1
+available because &lt;a class="reference external" href="https://github.com/NeuralEnsemble/PyNN/pull/617"&gt;PyNN&lt;/a&gt; currently does not support version 2---that is a work
+in progress. Version 1 of the simulator will not be provided for Fedora
+releases after 29 since Fedora 30+ &lt;a class="reference external" href="https://fedoraproject.org/wiki/Changes/Mass_Python_2_Package_Removal"&gt;are moving to Python3 only&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+</content><category term="News"></category><category term="Software"></category><category term="Blog"></category><category term="Arbor"></category><category term="Neuron"></category><category term="Brian"></category><category term="PyNN"></category><category term="Python3"></category></entry><entry><title>NeuroFedora update: 2019 week 4</title><link href="https://neuroblog.fedoraproject.org/2019/01/27/neurofedora-update-2019-week-4.html" rel="alternate"></link><published>2019-01-27T14:09:10+00:00</published><updated>2019-01-27T14:09:10+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2019-01-27:/2019/01/27/neurofedora-update-2019-week-4.html</id><summary type="html">&lt;p class="first last"&gt;An update on &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; in the 4th week of 2019: a new blog, and
+other software updates.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;img alt="NeuroFedora logo" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/NeuroFedoraLogo01.png" style="width: 30%;" /&gt;
+&lt;p class="caption"&gt;&lt;a class="reference external" href="https://pagure.io/design/issue/602"&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;Until now, I had been posting updates &lt;a class="reference external" href="https://ankursinha.in/tag/neurofedora/"&gt;on my personal blog under the
+NeuroFedora tag&lt;/a&gt;, but I thought it
+was time we moved to a dedicated blog for &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;. This will allow others
+in the team to write posts, and, it'll ensure that all the information on
+&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is now disseminated by specific channels.&lt;/p&gt;
+&lt;p&gt;So, this week, apart from the new blog:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=1662526"&gt;neuron is in review&lt;/a&gt;
+and should be approved this week.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bodhi.fedoraproject.org/updates/FEDORA-2019-872277e166"&gt;python-tvb-data&lt;/a&gt; is now in
+testing, so we can begin working on the main software for &lt;a class="reference external" href="https://www.thevirtualbrain.org/tvb/zwei"&gt;The Virtual Brain
+simulator&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/sanjayankur31/rpm-specs/tree/spm12"&gt;SPM12 is now a WIP&lt;/a&gt;. It bundles
+&lt;a class="reference external" href="https://github.com/fieldtrip/fieldtrip"&gt;FieldTrip&lt;/a&gt;, so that will have to
+be packaged first.&lt;/li&gt;
+&lt;li&gt;the &lt;a class="reference external" href="https://github.com/CNS-OIST/STEPS"&gt;STEPS simulator&lt;/a&gt; is now &lt;a class="reference external" href="https://github.com/sanjayankur31/rpm-specs/tree/steps"&gt;WIP&lt;/a&gt;. It bundles a few
+sources too, so they will have to be packaged first: &lt;a class="reference external" href="https://github.com/sanjayankur31/rpm-specs/tree/easyloggingpp"&gt;easyloggingpp&lt;/a&gt;, and cvode
+are two major ones that need to be unbundled.&lt;/li&gt;
+&lt;li&gt;the &lt;a class="reference external" href="https://github.com/sanjayankur31/rpm-specs/tree/arbor"&gt;Arbor simulator&lt;/a&gt; is also a WIP. I
+ran into some trouble with CMake while trying to
+build it, but community members on the &lt;a class="reference external" href="https://lists.fedoraproject.org/archives/list/devel&amp;#64;lists.fedoraproject.org/message/UARN5KWBEMR22POWGDDF7WGCBAYT527X/"&gt;devel list&lt;/a&gt;
+were quite quick to point out the issue.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;We're going to continue packaging software one by one. We currently have 140
+tools on our &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?tags=S%3A+Needs+packaging"&gt;list&lt;/a&gt;,
+so it'll take some time before all of them are available in &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt;.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help"&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+</content><category term="News"></category><category term="Software"></category><category term="Blog"></category></entry><entry><title>Hello world</title><link href="https://neuroblog.fedoraproject.org/2019/01/22/hello-world.html" rel="alternate"></link><published>2019-01-22T19:27:17+00:00</published><updated>2019-01-22T19:27:17+00:00</updated><author><name>Manas Mangaonkar</name></author><id>tag:neuroblog.fedoraproject.org,2019-01-22:/2019/01/22/hello-world.html</id><summary type="html">&lt;p class="first last"&gt;Hello World!&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Hello world! The NeuroFedora blog is now live!&lt;/p&gt;
+</content><category term="Community"></category><category term="Blog"></category></entry></feed>
