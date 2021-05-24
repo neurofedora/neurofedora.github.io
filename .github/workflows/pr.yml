@@ -1,4 +1,4 @@
-name: Publish website
+name: Pull requests
 
 on:
   push:
