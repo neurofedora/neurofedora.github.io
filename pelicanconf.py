@@ -34,6 +34,10 @@ LINKS = (('Posts', '/blog_index.html'),
 
 # Social widget
 ICONS = (
+    ('fas fa-download', 'https://labs.fedoraproject.org/en/comp-neuro/',
+     "Download CompNeuro!"),
+    ('fab fa-fedora', 'https://getfedora.org',
+     "Get Fedora!"),
     ('fab fa-twitter',
      'https://twitter.com/neurofedora',
      'NeuroFedora on Twitter'),
@@ -55,8 +59,6 @@ ICONS = (
     ('fas fa-bug',
      'https://tinyurl.com/neurofedora-bugs',
      "NeuroFedora on Bugzilla"),
-    ('fab fa-fedora', 'https://getfedora.org',
-     "Get Fedora!"),
     ('fas fa-rss', '/feeds/all.atom.xml',
      "Subscribe to RSS feeds"),
 )
