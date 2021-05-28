@@ -43,7 +43,7 @@ ICONS = (
      'The NeuroFedora Mailing list'),
     ('fas fa-comments', 'https://tinyurl.com/neurofedora-matrix',
      "Chat on Element/Matrix"),
-    ('fas fa-comment', 'https://webchat.freenode.net/?channels=#fedora-neuro',
+    ('fas fa-comment', 'https://web.libera.chat/?channels=#fedora-neuro',
      "Chat on IRC"),
     ('fab fa-telegram', 'https://t.me/NeuroFedora',
      "Chat on Telegram"),
