@@ -30,7 +30,7 @@ Please join us at the next regular Open NeuroFedora team meeting on Monday 07 Ju
 The meeting is a public meeting, and open for everyone to attend.
 You can join us over:
 
-- `IRC <https://webchat.freenode.net/?channels=#fedora-neuro>`__
+- `IRC <https://webchat.libera.chat/?channels=#fedora-neuro>`__
 - the channel is also bridged to Telegram, so you can also join us there on the @NeuroFedora group: https://t.me/NeuroFedora.
 
 You can use `this link <https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+Meeting&iso=20210607T13&p1=1440&ah=1>`__ to convert the meeting time to your local time.
