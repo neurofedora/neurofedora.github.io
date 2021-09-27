@@ -41,7 +41,7 @@ ICONS = (
     ('fas fa-mail-bulk',
      'https://lists.fedoraproject.org/admin/lists/neurofedora@lists.fedoraproject.org/',
      'The NeuroFedora Mailing list'),
-    ('fas fa-comments', 'https://tinyurl.com/matrix-neurofedora',
+    ('fas fa-comments', 'https://matrix.to/#/#neuro:fedoraproject.org',
      "Chat on Element/Matrix"),
     ('fas fa-comment', 'https://web.libera.chat/?channels=#fedora-neuro',
      "Chat on IRC"),
