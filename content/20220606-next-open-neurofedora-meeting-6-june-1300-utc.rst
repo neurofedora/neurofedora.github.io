@@ -26,8 +26,8 @@ Next Open NeuroFedora meeting: 6 June 1300 UTC
    <br />
 
 
-Please join us at the next regular Open NeuroFedora team meeting on Monday 9
-May at 1300 UTC The meeting is a public meeting, and open for everyone to
+Please join us at the next regular Open NeuroFedora team meeting on Monday 6
+June at 1300 UTC The meeting is a public meeting, and open for everyone to
 attend.  You can join us over:
 
 - `Matrix <https://matrix.to/#/%23neuro:fedoraproject.org>`__
