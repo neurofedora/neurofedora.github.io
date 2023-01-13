@@ -5,3 +5,6 @@ pybtex
 feedgenerator
 Pygments
 ghp-import
+
+pelican-tag-cloud
+pelican-share-post

@@ -1,6 +1,3 @@
-[submodule "pelican-plugins"]
-	path = pelican-plugins
-	url = https://github.com/getpelican/pelican-plugins.git
 [submodule "theme-alchemy"]
 	path = theme-alchemy
 	url = git@github.com:neurofedora/pelican-alchemy.git
