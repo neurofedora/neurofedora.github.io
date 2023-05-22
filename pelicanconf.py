@@ -29,7 +29,7 @@ AUTHOR_FEED_ATOM = None
 
 # Blogroll
 LINKS = (('Posts', '/blog_index.html'),
-         ('Documentation', 'https://neuro.fedoraproject.org'),
+         ('Docs', 'https://neuro.fedoraproject.org'),
          )
 
 # Social widget
@@ -47,6 +47,9 @@ ICONS = (
      "Chat on IRC"),
     ('fab fa-telegram', 'https://t.me/NeuroFedora',
      "Chat on Telegram"),
+    ('fab fa-mastodon',
+     'https://fosstodon.org/tags/neurofedora',
+     'NeuroFedora on Mastodon'),
     ('fab fa-twitter',
      'https://twitter.com/neurofedora',
      'NeuroFedora on Twitter'),
