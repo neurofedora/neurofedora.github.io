@@ -34,7 +34,7 @@ You can join us over:
 - `Matrix <https://matrix.to/#/%23neuro:fedoraproject.org>`__ (using your web-browser)
 - `IRC <https://webchat.libera.chat/?channels=#fedora-neuro>`__
 
-You can use `https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&iso=20230717T13&p1=1440&ah=1`__ to convert the meeting time to your local time.
+You can use `this link <https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&iso=20230717T13&p1=1440&ah=1>`__ to convert the meeting time to your local time.
 Or, you can also use this command in the terminal:
 
 .. code-block:: bash
