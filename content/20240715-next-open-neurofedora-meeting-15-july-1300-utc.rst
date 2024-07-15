@@ -1,6 +1,6 @@
 Next Open NeuroFedora meeting: 15 July 1300 UTC
 #################################################
-:date: 2024-06-17 11:10:14
+:date: 2024-07-15 10:53:33
 :modified: 2024-07-15 10:53:33
 :authors: Ankur
 :category: Community
