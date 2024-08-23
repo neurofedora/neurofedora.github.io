@@ -1,12 +1,12 @@
-Next Open NeuroFedora meeting: 26 August 1300 UTC
-#################################################
-:date: 2024-08-12 10:26:49
-:modified: 2024-08-12 11:07:26
+Next Open NeuroFedora meeting: 09 September 1300 UTC
+#####################################################
+:date: 2024-08-23 15:07:51
+:modified: 2024-08-23 15:07:51
 :authors: Ankur
 :category: Community
 :tags: meeting, IRC, Matrix, Element
-:slug: next-open-neurofedora-meeting-26-august-1300-utc
-:summary: The next open NeuroFedora meeting is on 26 August at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.
+:slug: next-open-neurofedora-meeting-09-september-1300-utc
+:summary: The next open NeuroFedora meeting is on 09 September at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.
 
 .. raw:: html
 
@@ -26,17 +26,17 @@ Next Open NeuroFedora meeting: 26 August 1300 UTC
    <br />
 
 
-Please join us at the next regular Open NeuroFedora team meeting on Monday 26 August at 1300 UTC.
+Please join us at the next regular Open NeuroFedora team meeting on Monday 09 September at 1300 UTC.
 The meeting is a public meeting, and open for everyone to attend.
 You can join us in the `Fedora meeting channel on chat.fedoraproject.org (our Matrix instance) <https://matrix.to/#/#meeting:fedoraproject.org>`__.
 Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.
 
-You can use `this link <https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&iso=20240826T13&p1=1440&ah=1>`__ to convert the meeting time to your local time.
+You can use `this link <https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&iso=20240909T13&p1=1440&ah=1>`__ to convert the meeting time to your local time.
 Or, you can also use this command in the terminal:
 
 .. code-block:: bash
 
-    $ date -d 'Monday, August 26, 2024 13:00 UTC'
+    $ date -d 'Monday, September 09, 2024 13:00 UTC'
 
 
 The meeting will be chaired by `@ankursinha <https://fedoraproject.org/wiki/User:Ankursinha>`__.
