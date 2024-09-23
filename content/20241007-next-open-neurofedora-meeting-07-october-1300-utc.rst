@@ -1,7 +1,7 @@
 Next Open NeuroFedora meeting: 07 October 1300 UTC
 #####################################################
-:date: 2024-08-23 15:07:51
-:modified: 2024-09-23 10:36:45
+:date: 2024-09-23 10:45:49
+:modified: 2024-09-23 10:45:49
 :authors: Ankur
 :category: Community
 :tags: meeting, IRC, Matrix, Element
