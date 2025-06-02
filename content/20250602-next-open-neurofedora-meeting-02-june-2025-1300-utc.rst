@@ -1,12 +1,12 @@
-Next Open NeuroFedora meeting: 07 April 2025 1300 UTC
+Next Open NeuroFedora meeting: 02 June 2025 1300 UTC
 #########################################################
-:date: 2025-03-10 09:24:05
-:modified: 2025-04-07 11:04:02
+:date: 2025-06-02 11:17:04
+:modified: 2025-06-02 11:17:04
 :authors: Ankur
 :category: Community
 :tags: meeting, IRC, Matrix, Element
-:slug: next-open-neurofedora-meeting-07-April-2025-1300-utc
-:summary: The next open NeuroFedora meeting is on 07 April 2025 at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.
+:slug: next-open-neurofedora-meeting-02-June-2025-1300-utc
+:summary: The next open NeuroFedora meeting is on 02 June 2025 at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.
 
 .. raw:: html
 
@@ -26,17 +26,17 @@ Next Open NeuroFedora meeting: 07 April 2025 1300 UTC
    <br />
 
 
-Please join us at the next regular Open NeuroFedora team meeting on Monday 07 April 2025 at 1300 UTC.
+Please join us at the next regular Open NeuroFedora team meeting on Monday 02 June 2025 at 1300 UTC.
 The meeting is a public meeting, and open for everyone to attend.
 You can join us in the `Fedora meeting channel on chat.fedoraproject.org (our Matrix instance) <https://matrix.to/#/#meeting:fedoraproject.org>`__.
 Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.
 
-You can use `this link <https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&iso=20250407T13&p1=1440&ah=1>`__ to convert the meeting time to your local time.
+You can use `this link <https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&iso=20250602T13&p1=1440&ah=1>`__ to convert the meeting time to your local time.
 Or, you can also use this command in the terminal:
 
 .. code-block:: bash
 
-    $ date -d 'Monday, April 07, 2025 13:00 UTC'
+    $ date -d 'Monday, June 02, 2025 13:00 UTC'
 
 
 The meeting will be chaired by `@ankursinha <https://fedoraproject.org/wiki/User:Ankursinha>`__.
