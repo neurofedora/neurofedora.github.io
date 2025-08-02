@@ -41,7 +41,7 @@ The testing involves:
 
 We `automate these tests using PyTest <https://pagure.io/neuro-sig/NeuroFedora/blob/main/f/python-package-usage-check>`__, and a daily report is published on `fedorapeople.org here <https://ankursinha.fedorapeople.org/neurofedora/package-status/>`__.
 
-Our `documentation <https://https://docs.fedoraproject.org/en-US/neurofedora/>`__ has also been updated to reflect this change.
+Our `documentation <https://docs.fedoraproject.org/en-US/neurofedora/>`__ has also been updated to reflect this change.
 We now include two tables on each page.
 One table provides information about the software that can be installed from PyPi_, and so is not included in rpm form in Fedora.
 The other provides information about the software that continues to be included in Fedora, because it cannot be easily installed from PyPi_ directly.
