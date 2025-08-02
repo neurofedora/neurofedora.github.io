@@ -50,8 +50,7 @@ We will continue reporting issues to upstream developers as we have done before.
 The difference now is that we work directly with what they publish, rather than our rpm packaged versions of what they publish.
 
 You can follow this discussion and progress `here <https://pagure.io/neuro-sig/NeuroFedora/issue/580>`__.
-
-
+Please refer to the lists in the documentation for the up to date list of packages we include/test.
 
 
 .. _NeuroFedora: https://neuro.fedoraproject.org
