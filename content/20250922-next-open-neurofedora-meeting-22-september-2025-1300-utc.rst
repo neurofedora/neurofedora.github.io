@@ -1,6 +1,6 @@
 Next Open NeuroFedora meeting: 22 September 2025 1300 UTC
 #########################################################
-:date: 2025-03-10 09:24:05
+:date: 2025-09-22 10:59:02
 :modified: 2025-09-22 10:59:02
 :authors: Ankur
 :category: Community
