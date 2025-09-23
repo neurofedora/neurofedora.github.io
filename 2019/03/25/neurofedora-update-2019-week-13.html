@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  NeuroFedora update: 2019 week 13 | NeuroFedora: Blog
+</title>
+  <link rel="canonical" href="https://neuroblog.fedoraproject.org/2019/03/25/neurofedora-update-2019-week-13.html">
+
+
+  <link rel="stylesheet" href="https://neuroblog.fedoraproject.org/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://neuroblog.fedoraproject.org/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://neuroblog.fedoraproject.org/theme/css/theme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml">
+  
+  <meta name="description" content="An update on NeuroFedora in the 13th week of 2019: more software updates, future plans, next team meeting.">
+  
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-622HT9305W"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-622HT9305W');
+    </script>
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-3">
+      <a href="https://neuroblog.fedoraproject.org/" title="NeuroFedora: Blog">
+        <img class="img-fluid rounded" src=https://neuroblog.fedoraproject.org/NeuroFedoraLogo01-title.png alt="NeuroFedora: Blog">
+      </a>
+    </div>
+  <div class="col-sm-9">
+    <h1 class="title"><a href="https://neuroblog.fedoraproject.org/" title="NeuroFedora: Blog">NeuroFedora: Blog</a></h1>
+      <p class="text-muted">Free Software for Free Neuroscience</p>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="/blog_index.html" title="Posts">Posts</a></li>
+          <li class="list-inline-item"><a href="https://neuro.fedoraproject.org" title="Docs">Docs</a></li>
+            <li class=" list-inline-item text-muted">|</li>
+          <li class="list-inline-item"><a class="fas fa-download" href="https://labs.fedoraproject.org/en/comp-neuro/" title="Download CompNeuro!"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fab fa-fedora" href="https://getfedora.org" title="Get Fedora!"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-mail-bulk" href="https://lists.fedoraproject.org/admin/lists/neurofedora@lists.fedoraproject.org/" title="The NeuroFedora Mailing list"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-comments" href="https://matrix.to/#/#neuro:fedoraproject.org" title="Chat on Element/Matrix"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-comment" href="https://web.libera.chat/?channels=#fedora-neuro" title="Chat on IRC"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fab fa-telegram" href="https://t.me/NeuroFedora" title="Chat on Telegram"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fab fa-mastodon" href="https://fosstodon.org/tags/neurofedora" title="NeuroFedora on Mastodon"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fab fa-twitter" href="https://twitter.com/neurofedora" title="NeuroFedora on Twitter"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-brain" href="https://neuroblog.fedoraproject.org/planet-neuroscience/" title="Journal RSS feeds"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-newspaper" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/" title="Neuroscience news"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fab fa-linkedin" href="https://www.linkedin.com/groups/8912503/" title="NeuroFedora on LinkedIn"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-code-branch" href="https://pagure.io/neuro-sig/NeuroFedora" title="NeuroFedora on pagure.io"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fab fa-github" href="https://github.com/neurofedora" title="NeuroFedora on Github"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-bug" href="https://tinyurl.com/neurofedora-bugs" title="NeuroFedora on Bugzilla"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-rss" href="/feeds/all.atom.xml" title="Subscribe to RSS feeds"target="_blank"></a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  NeuroFedora update: 2019 week 13
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2019-03-25T11:18:32+00:00">
+          <i class="fas fa-clock"></i>
+          Mon 25 March 2019
+        </li>
+        <li class="list-inline-item">
+          <i class="fas fa-folder-open"></i>
+          <a href="https://neuroblog.fedoraproject.org/category/news/">News</a>
+        </li>
+          <li class="list-inline-item">
+            <i class="fas fa-user-circle"></i>
+              <a href="https://neuroblog.fedoraproject.org/author/ankur-sinha.html">Ankur Sinha</a>          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-tags"></i>
+              <a href="https://neuroblog.fedoraproject.org/tag/software/">#Software</a>,               <a href="https://neuroblog.fedoraproject.org/tag/blog/">#Blog</a>,               <a href="https://neuroblog.fedoraproject.org/tag/documentation/">#Documentation</a>,               <a href="https://neuroblog.fedoraproject.org/tag/fedora-lab/">#Fedora Lab</a>,               <a href="https://neuroblog.fedoraproject.org/tag/fedora-spin/">#Fedora Spin</a>,               <a href="https://neuroblog.fedoraproject.org/tag/contribution-opportunity/">#Contribution
+opportunity</a>          </li>
+<ul class="list-inline">
+  <li class="list-inline-item text-muted" title="Share"><i class="fas fa-share-alt" title="Share this post"></i> Share this post:</li>
+  <li class="list-inline-item"><a class="fab fa-mastodon" href="https://toot.kytta.dev/?text=NeuroFedora%20update%3A%202019%20week%2013%0D%0Ahttps%3A//neuroblog.fedoraproject.org/2019/03/25/neurofedora-update-2019-week-13.html%0D%0A%23Software %23Blog %23Documentation %23FedoraLab %23FedoraSpin %23Contribution
+opportunity" target="_blank" title="Share on mastodon"></a></li>
+  <li class="list-inline-item"><a class="fab fa-twitter" href="https://twitter.com/intent/tweet?text=NeuroFedora%20update%3A%202019%20week%2013&url=https%3A//neuroblog.fedoraproject.org/2019/03/25/neurofedora-update-2019-week-13.html&hashtags=software,blog,documentation,fedora-lab,fedora-spin,contribution-opportunity" target="_blank" title="Share on Twitter"></a></li>
+  <li class="list-inline-item"><a class="fab fa-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//neuroblog.fedoraproject.org/2019/03/25/neurofedora-update-2019-week-13.html" target="_blank" title="Share on Facebook"></a></li>
+  <li class="list-inline-item"><a class="fab fa-reddit" href="https://www.reddit.com/submit?url=https%3A//neuroblog.fedoraproject.org/2019/03/25/neurofedora-update-2019-week-13.html&title=NeuroFedora%20update%3A%202019%20week%2013" target="_blank" title="Share on Reddit"></a></li>
+  <li class="list-inline-item"><a class="fas fa-mail-bulk" href="mailto:?subject=NeuroFedora%20update%3A%202019%20week%2013&amp;body=https%3A//neuroblog.fedoraproject.org/2019/03/25/neurofedora-update-2019-week-13.html" target="_blank" title="Share via E-mail"></a></li>
+</ul>
+      </ul>
+    </header>
+    <div class="content">
+      <center><div class="figure">
+<img alt="NeuroFedora logo" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/NeuroFedoraLogo01.png" style="width: 30%;" />
+<p class="caption"><a class="reference external" href="https://pagure.io/design/issue/602">NeuroFedora logo by Terezahl from the Fedora Design Team</a></p>
+</div>
+</center><p>More software has been submitted for review and included in <a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a>. We
+keep making steady progress on that front. Please keep an eye on our
+documentation to see what new tools are now available for use in <a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a></p>
+<p>We have also submitted an abstract for <a class="reference external" href="https://www.cnsorg.org/cns-2019">CNS*2019</a> to present at poster at the conference
+introducing NeuroFedora to the computational neuroscience research community.
+So, we do hope to see you there (Ankur will be at <a class="reference external" href="https://www.cnsorg.org/cns-2019">CNS*2019</a> anyway).</p>
+<p>We are always looking for more people to join the team. At the moment, we are
+looking for people to fill these two roles:</p>
+<ul class="simple">
+<li>Spin/Lab master: to have a ready-to-use downloadable ISO, we'd like to work
+on a Fedora based NeuroFedora &quot;lab&quot;. We are looking for a <a class="reference external" href="https://lists.fedoraproject.org/archives/list/neuro-sig&#64;lists.fedoraproject.org/message/5DAKTDPJRRSLCB76EGYH7K5RACEFYTMU/">spin/lab master</a>
+to lead this goal.  <a class="reference external" href="https://labs.fedoraproject.org/">(What is a Fedora spin/lab?)</a>. The skills needed for this task are:<ul>
+<li>knowledge of <a class="reference external" href="https://git-scm.com/">Git</a> and <a class="reference external" href="https://git-scm.com/">Git</a> based workflows: <a class="reference external" href="https://pagure.io">Pagure</a>/<a class="reference external" href="https://gitlab.com">Gitlab</a>/<a class="reference external" href="https://github.com">Github</a>/<a class="reference external" href="https://bitbucket.com">Bitbucket</a>.</li>
+<li>knowledge of how <a class="reference external" href="https://dnf.readthedocs.io/en/latest/">DNF</a> works.</li>
+<li>knowledge of the Fedora Spin process and associated tools (kickstart files, for example).</li>
+</ul>
+</li>
+<li>Documentation master: given how important end-user documentation is, we are
+looking for a documentation master to ensure ours is up to the mark. For this
+role, the required skills are:<ul>
+<li>knowledge of <a class="reference external" href="https://git-scm.com/">Git</a> and <a class="reference external" href="https://git-scm.com/">Git</a> based workflows: <a class="reference external" href="https://pagure.io">Pagure</a>/<a class="reference external" href="https://gitlab.com">Gitlab</a>/<a class="reference external" href="https://github.com">Github</a>/<a class="reference external" href="https://bitbucket.com">Bitbucket</a>.</li>
+<li>knowledge of <a class="reference external" href="http://asciidoc.org/">Asciidoc</a> and <a class="reference external" href="https://antora.org/">Antora</a>.</li>
+<li>knowledge of <a class="reference external" href="https://www.docker.com/">Docker</a>.</li>
+</ul>
+</li>
+</ul>
+<p>If any of these roles interest you, please get in touch with the <a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a>
+team. You needn't have these skills already---you can learn these from the
+<a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a> team as you go along.</p>
+<p>The next Open NeuroFedora meeting is on the <a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+team+meeting+%232&amp;iso=20190326T22&amp;p1=136&amp;ah=1">26th of March at 2200GMT/UTC</a>.
+We will discuss our progress, and what we need to do next. It is time we
+started preparing for <a class="reference external" href="https://www.cnsorg.org/cns-2019">CNS*2019</a> too, so we will discuss what software we
+would like to showcase there.</p>
+<p>The meeting will be held on our <a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help">IRC/Telegram channel</a>.
+It is open for all to attend. Please pop by!</p>
+<hr class="docutils" />
+<p><a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a> is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us <a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help">here</a>.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.</p>
+
+    </div>
+  </article>
+  <hr>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function() {
+      this.page.url = 'https://neuroblog.fedoraproject.org/2019/03/25/neurofedora-update-2019-week-13.html';
+      this.page.identifier = 'neurofedora-update-2019-week-13';
+    };
+    (function() {
+      var d = document;
+      var s = d.createElement('script');
+      s.src = '//neurofedora.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript class="text-muted">
+    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+  </noscript>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://docs.fedoraproject.org/en-US/project/code-of-conduct/" title="Code of Conduct">Code of Conduct</a></li>
+      <li class="list-inline-item"><a href="https://neuroblog.fedoraproject.org/authors.html" title="Authors">Authors</a></li>
+    <li class="list-inline-item"><a href="https://neuroblog.fedoraproject.org/archives.html" title="Archives">Archives</a></li>
+    <li class="list-inline-item"><a href="https://neuroblog.fedoraproject.org/categories.html" title="Categories">Categories</a></li>
+      <li class="list-inline-item"><a href="https://neuroblog.fedoraproject.org/tags.html" title="Tags">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    All content on this blog is made available under <a href="http://creativecommons.org/licenses/by-sa/4.0/legalcode" title="CC-By-SA 4.0 license" targget="_blank">CC-By-SA 4.0</a> unless specifically noted | Generated by <a href="https://github.com/getpelican/pelican" title="Pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" title="Pelican Alchemy Theme" target="_blank">&#x2728;</a>
+  </p>
+</div>    </div>
+  </footer>
+</body>
+
+</html>

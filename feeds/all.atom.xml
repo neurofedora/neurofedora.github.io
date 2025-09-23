@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NeuroFedora: Blog</title><link href="https://neuroblog.fedoraproject.org/" rel="alternate"/><link href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml" rel="self"/><id>https://neuroblog.fedoraproject.org/</id><updated>2025-09-22T10:59:02+01:00</updated><subtitle>Free Software for Free Neuroscience</subtitle><entry><title>Next Open NeuroFedora meeting: 22 September 2025 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2025/09/22/next-open-neurofedora-meeting-22-September-2025-1300-utc.html" rel="alternate"/><published>2025-09-22T10:59:02+01:00</published><updated>2025-09-22T10:59:02+01:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2025-09-22:/2025/09/22/next-open-neurofedora-meeting-22-September-2025-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 22 September 2025 at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 22 September 2025 at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20250922T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, September 22, 2025 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://ankursinha.fedorapeople.org/neurofedora/package-status/latest/"&gt;Python package installability check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Packaging changes at NeuroFedora</title><link href="https://neuroblog.fedoraproject.org/2025/08/02/packaging-changes-at-neurofedora.html" rel="alternate"/><published>2025-08-02T14:02:06+01:00</published><updated>2025-08-02T14:02:06+01:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2025-08-02:/2025/08/02/packaging-changes-at-neurofedora.html</id><summary type="html">&lt;p class="first last"&gt;The &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; team has decided to make a couple of changes to the artefacts that we produce and maintain. Please read the post for details.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;The &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; team has decided to make a couple of changes to the artefacts that we produce and maintain:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The Comp Neuro Lab ISO image has been dropped.&lt;/li&gt;
+&lt;li&gt;We are moving away from packaging Python software that is easily installable from &lt;a class="reference external" href="https://pypi.org"&gt;PyPi&lt;/a&gt; into rpms for the Fedora repositories to testing it out on Fedora.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Over the years that the &lt;a class="reference external" href="https://neuro.fedoraproject.org"&gt;NeuroFedora&lt;/a&gt; team has been maintaining neuroscience rpm packages for the Fedora repositories, we have amassed a rather large number, &lt;a class="reference external" href="https://src.fedoraproject.org/group/neuro-sig"&gt;almost ~500 packages&lt;/a&gt;.
+That is great, and we are extremely pleased with our coverage of the neuroscience software ecosystem.
+However, given that the team is composed of a few volunteers who can only dedicate limited amounts of their time to maintaining packages, we were beginning to find that we were unable to keep up with the increasing workload.&lt;/p&gt;
+&lt;p&gt;Further, we realised that the use case for including all neuroscience software in Fedora was no longer clear---was it really required for us to package all of it for users?&lt;/p&gt;
+&lt;p&gt;An example case is the Python ecosystem.
+Usually, users/researchers/developers tend to install Python software directly from &lt;a class="reference external" href="https://pypi.org"&gt;PyPi&lt;/a&gt; rather than relying on system packages that we provide.
+The suggested use of virtual environments to isolate projects and their dependencies also requires the use of software directly from &lt;a class="reference external" href="https://pypi.org"&gt;PyPi&lt;/a&gt;, rather than using our system packages.
+Therefore, for software that can be installed directly, we argue that it is less important that we package them.
+Instead, it is more useful to our user base if we thoroughly test that this set of software can be properly installed and used on Fedora---on all the different versions of Python that a Fedora release supports.&lt;/p&gt;
+&lt;p&gt;So, a new guideline that we now follow is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;prioritise packaging software that cannot be easily installed from upstream forges (such as &lt;a class="reference external" href="https://pypi.org"&gt;PyPi&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Following this, we have made a start on the Python packages that we maintain:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;we made a list of software that is easily installable from &lt;a class="reference external" href="https://pypi.org"&gt;PyPi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;we began dropping them from Fedora, and instead testing their usage from &lt;a class="reference external" href="https://pypi.org"&gt;PyPi&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The testing involves:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;checking that the software and its extras can be successfully installed on Fedora using &lt;cite&gt;pip&lt;/cite&gt;&lt;/li&gt;
+&lt;li&gt;checking that the modules that the software include can be successfully imported&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/blob/main/f/python-package-usage-check"&gt;automate these tests using PyTest&lt;/a&gt;, and a daily report is published on &lt;a class="reference external" href="https://ankursinha.fedorapeople.org/neurofedora/package-status/"&gt;fedorapeople.org here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Our &lt;a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/"&gt;documentation&lt;/a&gt; has also been updated to reflect this change.
+We now include two tables on each page.
+One table provides information about the software that can be installed from &lt;a class="reference external" href="https://pypi.org"&gt;PyPi&lt;/a&gt;, and so is not included in rpm form in Fedora.
+The other provides information about the software that continues to be included in Fedora, because it cannot be easily installed from &lt;a class="reference external" href="https://pypi.org"&gt;PyPi&lt;/a&gt; directly.&lt;/p&gt;
+&lt;p&gt;We will continue reporting issues to upstream developers as we have done before.
+The difference now is that we work directly with what they publish, rather than our rpm packaged versions of what they publish.&lt;/p&gt;
+&lt;p&gt;You can follow this discussion and progress &lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/580"&gt;here&lt;/a&gt;.
+Please refer to the lists in the documentation for the up to date list of packages we include/test.&lt;/p&gt;
+</content><category term="News"/><category term="Computational Modelling"/><category term="Computational Neuroscience"/><category term="Documentation"/><category term="Fedora Lab"/><category term="Neuroscience"/><category term="FOSS"/><category term="Fedora"/></entry><entry><title>Next Open NeuroFedora meeting: 02 June 2025 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2025/06/02/next-open-neurofedora-meeting-02-June-2025-1300-utc.html" rel="alternate"/><published>2025-06-02T11:17:04+01:00</published><updated>2025-06-02T11:17:04+01:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2025-06-02:/2025/06/02/next-open-neurofedora-meeting-02-June-2025-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 02 June 2025 at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 02 June 2025 at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20250602T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, June 02, 2025 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 41/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 07 April 2025 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2025/03/10/next-open-neurofedora-meeting-07-April-2025-1300-utc.html" rel="alternate"/><published>2025-03-10T09:24:05+00:00</published><updated>2025-04-07T11:04:02+01:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2025-03-10:/2025/03/10/next-open-neurofedora-meeting-07-April-2025-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 07 April 2025 at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 07 April 2025 at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20250407T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, April 07, 2025 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 41/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 10 March 2025 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2025/03/10/next-open-neurofedora-meeting-10-march-2025-1300-utc.html" rel="alternate"/><published>2025-03-10T09:24:05+00:00</published><updated>2025-03-10T09:24:05+00:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2025-03-10:/2025/03/10/next-open-neurofedora-meeting-10-march-2025-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 10 March 2025 at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 10 March 2025 at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20250310T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, March 10, 2025 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 41/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 10 February 2025 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2025/02/10/next-open-neurofedora-meeting-10-february-2025-1300-utc.html" rel="alternate"/><published>2025-02-10T09:24:05+00:00</published><updated>2025-02-10T09:24:05+00:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2025-02-10:/2025/02/10/next-open-neurofedora-meeting-10-february-2025-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 10 February 2025 at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 10 February 2025 at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20250210T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, February 10, 2025 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 41/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 27 January 2025 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2025/01/27/next-open-neurofedora-meeting-27-january-2025-1300-utc.html" rel="alternate"/><published>2025-01-27T10:15:32+00:00</published><updated>2025-01-27T10:15:32+00:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2025-01-27:/2025/01/27/next-open-neurofedora-meeting-27-january-2025-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 27 January 2025 at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 27 January 2025 at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20250127T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, January 27, 2025 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 41/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 02 December 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2024/11/18/next-open-neurofedora-meeting-02-december-1300-utc.html" rel="alternate"/><published>2024-11-18T09:56:35+00:00</published><updated>2024-11-18T09:56:35+00:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2024-11-18:/2024/11/18/next-open-neurofedora-meeting-02-december-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 02 December at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 02 December at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20241202T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, December 02, 2024 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 41/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 18 November 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2024/11/18/next-open-neurofedora-meeting-18-november-1300-utc.html" rel="alternate"/><published>2024-11-18T09:54:44+00:00</published><updated>2024-11-18T09:54:44+00:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2024-11-18:/2024/11/18/next-open-neurofedora-meeting-18-november-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 18 November at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 18 November at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20241118T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, November 18, 2024 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 41/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 07 October 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2024/09/23/next-open-neurofedora-meeting-07-october-1300-utc.html" rel="alternate"/><published>2024-09-23T10:45:49+01:00</published><updated>2024-09-23T10:45:49+01:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2024-09-23:/2024/09/23/next-open-neurofedora-meeting-07-october-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 07 October at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 07 October at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20241007T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, October 07, 2024 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 41/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 23 September 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2024/09/23/next-open-neurofedora-meeting-23-september-1300-utc.html" rel="alternate"/><published>2024-09-23T10:45:40+01:00</published><updated>2024-09-23T10:45:40+01:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2024-09-23:/2024/09/23/next-open-neurofedora-meeting-23-september-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 23 September at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 23 September at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20240923T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, September 23, 2024 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 41/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 09 September 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2024/08/23/next-open-neurofedora-meeting-09-september-1300-utc.html" rel="alternate"/><published>2024-08-23T15:07:51+01:00</published><updated>2024-08-23T15:07:51+01:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2024-08-23:/2024/08/23/next-open-neurofedora-meeting-09-september-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 09 September at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 09 September at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20240909T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, September 09, 2024 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 40/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 12 August 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2024/08/12/next-open-neurofedora-meeting-12-august-1300-utc.html" rel="alternate"/><published>2024-08-12T10:26:49+01:00</published><updated>2024-08-12T10:26:49+01:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2024-08-12:/2024/08/12/next-open-neurofedora-meeting-12-august-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 12 August at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 12 August at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20240812T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, August 12, 2024 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 40/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 29 July 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2024/07/29/next-open-neurofedora-meeting-29-july-1300-utc.html" rel="alternate"/><published>2024-07-29T10:34:41+01:00</published><updated>2024-07-29T10:34:41+01:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2024-07-29:/2024/07/29/next-open-neurofedora-meeting-29-july-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 29 July at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 29 July at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20240729T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, July 29, 2024 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 40/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 15 July 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2024/07/15/next-open-neurofedora-meeting-15-july-1300-utc.html" rel="alternate"/><published>2024-07-15T10:53:33+01:00</published><updated>2024-07-15T10:53:33+01:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2024-07-15:/2024/07/15/next-open-neurofedora-meeting-15-july-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 15 July at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 15 July at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20240715T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, July 15, 2024 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 40/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 01 July 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2024/06/17/next-open-neurofedora-meeting-01-july-1300-utc.html" rel="alternate"/><published>2024-06-17T11:10:14+01:00</published><updated>2024-06-17T11:37:05+01:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2024-06-17:/2024/06/17/next-open-neurofedora-meeting-01-july-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 01 July at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 01 July at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20240701T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, July 01, 2024 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 40/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 17 June 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2024/06/17/next-open-neurofedora-meeting-17-june-1300-utc.html" rel="alternate"/><published>2024-06-17T11:10:14+01:00</published><updated>2024-06-17T11:10:14+01:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2024-06-17:/2024/06/17/next-open-neurofedora-meeting-17-june-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 17 June at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 17 June at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20240617T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, June 17, 2024 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 40/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 03 June 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2024/06/03/next-open-neurofedora-meeting-06-june-1300-utc.html" rel="alternate"/><published>2024-06-03T11:10:14+01:00</published><updated>2024-06-03T11:10:14+01:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2024-06-03:/2024/06/03/next-open-neurofedora-meeting-06-june-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 03 June at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 03 June at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20240603T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, June 03, 2024 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 40/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 20 May 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2024/05/20/next-open-neurofedora-meeting-20-may-1300-utc.html" rel="alternate"/><published>2024-05-20T08:26:02+01:00</published><updated>2024-05-20T08:26:02+01:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2024-05-20:/2024/05/20/next-open-neurofedora-meeting-20-may-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 20 May at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 20 May at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20240520T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, May 20, 2024 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 40/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 22 April 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2024/04/22/next-open-neurofedora-meeting-22-april-1300-utc.html" rel="alternate"/><published>2024-04-22T10:49:03+01:00</published><updated>2024-04-22T10:49:03+01:00</updated><author><name>Ankur</name></author><id>tag:neuroblog.fedoraproject.org,2024-04-22:/2024/04/22/next-open-neurofedora-meeting-22-april-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 22 April at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 22 April at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20240422T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, April 22, 2024 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;a class="reference external" href="https://fedoraproject.org/wiki/User:Ankursinha"&gt;&amp;#64;ankursinha&lt;/a&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 40/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 25 March 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2024/03/25/next-open-neurofedora-meeting-25-march-1300-utc.html" rel="alternate"/><published>2024-03-25T09:11:15+00:00</published><updated>2024-03-25T09:17:18+00:00</updated><author><name>Sandro</name></author><id>tag:neuroblog.fedoraproject.org,2024-03-25:/2024/03/25/next-open-neurofedora-meeting-25-march-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 25 March at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 25 March at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20240311T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;-d&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Monday, March 25, 2024 13:00 UTC&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;cite&gt;&amp;#64;Penguinpee&lt;/cite&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 40/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 11 March 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2024/03/09/next-open-neurofedora-meeting-11-march-1300-utc.html" rel="alternate"/><published>2024-03-09T14:54:23+00:00</published><updated>2024-03-09T14:54:23+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2024-03-09:/2024/03/09/next-open-neurofedora-meeting-11-march-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 11 March at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 11 March at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20240311T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;--date&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;TZ=&amp;quot;UTC&amp;quot; 1300 2024-03-11&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;cite&gt;&amp;#64;ankursinha&lt;/cite&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 40/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 26 February 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2024/02/26/next-open-neurofedora-meeting-26-february-1300-utc.html" rel="alternate"/><published>2024-02-26T09:42:49+00:00</published><updated>2024-02-26T09:42:49+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2024-02-26:/2024/02/26/next-open-neurofedora-meeting-26-february-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 26 February at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 26 February at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20240226T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;--date&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;TZ=&amp;quot;UTC&amp;quot; 1300 2024-02-26&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;cite&gt;&amp;#64;ankursinha&lt;/cite&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 40/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 12 February 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2024/02/12/next-open-neurofedora-meeting-12-february-1300-utc.html" rel="alternate"/><published>2024-02-12T09:42:49+00:00</published><updated>2024-02-12T09:42:49+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2024-02-12:/2024/02/12/next-open-neurofedora-meeting-12-february-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 12 February at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 12 February at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20240212T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;--date&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;TZ=&amp;quot;UTC&amp;quot; 1300 2024-02-12&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;cite&gt;&amp;#64;ankursinha&lt;/cite&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 40/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 29 January 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2024/01/26/next-open-neurofedora-meeting-29-january-1300-utc.html" rel="alternate"/><published>2024-01-26T09:17:28+00:00</published><updated>2024-01-26T09:17:28+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2024-01-26:/2024/01/26/next-open-neurofedora-meeting-29-january-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 29 January at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 29 January at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix home severs, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20240129T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;--date&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;TZ=&amp;quot;UTC&amp;quot; 1300 2024-01-29&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;cite&gt;&amp;#64;gui1ty&lt;/cite&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 40/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 15 January 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2024/01/15/next-open-neurofedora-meeting-15-january-1300-utc.html" rel="alternate"/><published>2024-01-15T09:18:02+00:00</published><updated>2024-01-15T09:18:02+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2024-01-15:/2024/01/15/next-open-neurofedora-meeting-15-january-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 15 January at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 15 January at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us in the &lt;a class="reference external" href="https://matrix.to/#/#meeting:fedoraproject.org"&gt;Fedora meeting channel on chat.fedoraproject.org (our Matrix instance)&lt;/a&gt;.
+Note that you can also access this channel from other Matrix homesevers, so you do not have to create a Fedora account just to attend the meeting.&lt;/p&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20240115T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;--date&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;TZ=&amp;quot;UTC&amp;quot; 1300 2024-01-15&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;cite&gt;&amp;#64;ankursinha&lt;/cite&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 40/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 04 December 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2023/12/04/next-open-neurofedora-meeting-04-December-1300-utc.html" rel="alternate"/><published>2023-12-04T09:22:00+00:00</published><updated>2023-12-04T09:22:00+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2023-12-04:/2023/12/04/next-open-neurofedora-meeting-04-December-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 04 December at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 04 December at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us over:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://matrix.to/#/#neuro:fedoraproject.org"&gt;Matrix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20231204T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;--date&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;TZ=&amp;quot;UTC&amp;quot; 1300 2023-12-04&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;cite&gt;&amp;#64;ankursinha&lt;/cite&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 40/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 20 November 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2023/11/20/next-open-neurofedora-meeting-20-November-1300-utc.html" rel="alternate"/><published>2023-11-20T12:29:03+00:00</published><updated>2023-11-20T12:29:03+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2023-11-20:/2023/11/20/next-open-neurofedora-meeting-20-November-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 20 November at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 20 November at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us over:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://matrix.to/#/#neuro:fedoraproject.org"&gt;Matrix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20231120T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;--date&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;TZ=&amp;quot;UTC&amp;quot; 1300 2023-11-20&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;cite&gt;&amp;#64;ankursinha&lt;/cite&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 38/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 06 November 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2023/11/06/next-open-neurofedora-meeting-06-November-1300-utc.html" rel="alternate"/><published>2023-11-06T12:06:42+00:00</published><updated>2023-11-06T12:06:42+00:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2023-11-06:/2023/11/06/next-open-neurofedora-meeting-06-November-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 06 November at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 06 November at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us over:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://matrix.to/#/#neuro:fedoraproject.org"&gt;Matrix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20231106T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;--date&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;TZ=&amp;quot;UTC&amp;quot; 1300 2023-11-06&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;cite&gt;&amp;#64;ankursinha&lt;/cite&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 38/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry><entry><title>Next Open NeuroFedora meeting: 23 October 1300 UTC</title><link href="https://neuroblog.fedoraproject.org/2023/10/23/next-open-neurofedora-meeting-23-October-1300-utc.html" rel="alternate"/><published>2023-10-23T09:28:59+01:00</published><updated>2023-10-23T09:28:59+01:00</updated><author><name>Ankur Sinha</name></author><id>tag:neuroblog.fedoraproject.org,2023-10-23:/2023/10/23/next-open-neurofedora-meeting-23-October-1300-utc.html</id><summary type="html">&lt;p class="first last"&gt;The next open NeuroFedora meeting is on 23 October at 1300 UTC. Please read the post for the agenda and information on how to attend the meeting.&lt;/p&gt;
+</summary><content type="html">&lt;center&gt;&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="#"&gt;
+&lt;img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /&gt;
+&lt;/a&gt;
+&lt;p class="caption"&gt;Photo by &lt;a class="reference external" href="https://unsplash.com/&amp;#64;wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;William White&lt;/a&gt; on &lt;a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 23 October at 1300 UTC.
+The meeting is a public meeting, and open for everyone to attend.
+You can join us over:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://matrix.to/#/#neuro:fedoraproject.org"&gt;Matrix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use &lt;a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+NeuroFedora+Meeting&amp;amp;iso=20231023T13&amp;amp;p1=1440&amp;amp;ah=1"&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;date&lt;span class="w"&gt; &lt;/span&gt;--date&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;TZ=&amp;quot;UTC&amp;quot; 1300 2023-10-23&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by &lt;cite&gt;&amp;#64;ankursinha&lt;/cite&gt;.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://meetbot.fedoraproject.org/latest/neurofedora"&gt;Tasks from last meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting"&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig"&gt;Package health check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro"&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691"&gt;CompNeuro lab compose status check for Fedora 38/rawhide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;
+</content><category term="Community"/><category term="meeting"/><category term="IRC"/><category term="Matrix"/><category term="Element"/></entry></feed>

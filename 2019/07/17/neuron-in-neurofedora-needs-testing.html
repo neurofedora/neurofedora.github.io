@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  NEURON in NeuroFedora needs testing | NeuroFedora: Blog
+</title>
+  <link rel="canonical" href="https://neuroblog.fedoraproject.org/2019/07/17/neuron-in-neurofedora-needs-testing.html">
+
+
+  <link rel="stylesheet" href="https://neuroblog.fedoraproject.org/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://neuroblog.fedoraproject.org/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://neuroblog.fedoraproject.org/theme/css/theme.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml">
+  
+  <meta name="description" content="The NEURON simulator in NeuroFedora requires testing">
+  
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-622HT9305W"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-622HT9305W');
+    </script>
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+    <div class="col-sm-3">
+      <a href="https://neuroblog.fedoraproject.org/" title="NeuroFedora: Blog">
+        <img class="img-fluid rounded" src=https://neuroblog.fedoraproject.org/NeuroFedoraLogo01-title.png alt="NeuroFedora: Blog">
+      </a>
+    </div>
+  <div class="col-sm-9">
+    <h1 class="title"><a href="https://neuroblog.fedoraproject.org/" title="NeuroFedora: Blog">NeuroFedora: Blog</a></h1>
+      <p class="text-muted">Free Software for Free Neuroscience</p>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="/blog_index.html" title="Posts">Posts</a></li>
+          <li class="list-inline-item"><a href="https://neuro.fedoraproject.org" title="Docs">Docs</a></li>
+            <li class=" list-inline-item text-muted">|</li>
+          <li class="list-inline-item"><a class="fas fa-download" href="https://labs.fedoraproject.org/en/comp-neuro/" title="Download CompNeuro!"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fab fa-fedora" href="https://getfedora.org" title="Get Fedora!"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-mail-bulk" href="https://lists.fedoraproject.org/admin/lists/neurofedora@lists.fedoraproject.org/" title="The NeuroFedora Mailing list"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-comments" href="https://matrix.to/#/#neuro:fedoraproject.org" title="Chat on Element/Matrix"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-comment" href="https://web.libera.chat/?channels=#fedora-neuro" title="Chat on IRC"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fab fa-telegram" href="https://t.me/NeuroFedora" title="Chat on Telegram"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fab fa-mastodon" href="https://fosstodon.org/tags/neurofedora" title="NeuroFedora on Mastodon"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fab fa-twitter" href="https://twitter.com/neurofedora" title="NeuroFedora on Twitter"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-brain" href="https://neuroblog.fedoraproject.org/planet-neuroscience/" title="Journal RSS feeds"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-newspaper" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/" title="Neuroscience news"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fab fa-linkedin" href="https://www.linkedin.com/groups/8912503/" title="NeuroFedora on LinkedIn"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-code-branch" href="https://pagure.io/neuro-sig/NeuroFedora" title="NeuroFedora on pagure.io"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fab fa-github" href="https://github.com/neurofedora" title="NeuroFedora on Github"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-bug" href="https://tinyurl.com/neurofedora-bugs" title="NeuroFedora on Bugzilla"target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-rss" href="/feeds/all.atom.xml" title="Subscribe to RSS feeds"target="_blank"></a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  NEURON in NeuroFedora needs testing
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2019-07-17T08:52:51+01:00">
+          <i class="fas fa-clock"></i>
+          Wed 17 July 2019
+        </li>
+        <li class="list-inline-item">
+          <i class="fas fa-folder-open"></i>
+          <a href="https://neuroblog.fedoraproject.org/category/news/">News</a>
+        </li>
+          <li class="list-inline-item">
+            <i class="fas fa-user-circle"></i>
+              <a href="https://neuroblog.fedoraproject.org/author/ankur-sinha.html">Ankur Sinha</a>          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-tags"></i>
+              <a href="https://neuroblog.fedoraproject.org/tag/neuron/">#NEURON</a>,               <a href="https://neuroblog.fedoraproject.org/tag/quality-assurance/">#Quality Assurance</a>,               <a href="https://neuroblog.fedoraproject.org/tag/bodhi/">#Bodhi</a>          </li>
+<ul class="list-inline">
+  <li class="list-inline-item text-muted" title="Share"><i class="fas fa-share-alt" title="Share this post"></i> Share this post:</li>
+  <li class="list-inline-item"><a class="fab fa-mastodon" href="https://toot.kytta.dev/?text=NEURON%20in%20NeuroFedora%20needs%20testing%0D%0Ahttps%3A//neuroblog.fedoraproject.org/2019/07/17/neuron-in-neurofedora-needs-testing.html%0D%0A%23NEURON %23QualityAssurance %23Bodhi" target="_blank" title="Share on mastodon"></a></li>
+  <li class="list-inline-item"><a class="fab fa-twitter" href="https://twitter.com/intent/tweet?text=NEURON%20in%20NeuroFedora%20needs%20testing&url=https%3A//neuroblog.fedoraproject.org/2019/07/17/neuron-in-neurofedora-needs-testing.html&hashtags=neuron,quality-assurance,bodhi" target="_blank" title="Share on Twitter"></a></li>
+  <li class="list-inline-item"><a class="fab fa-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//neuroblog.fedoraproject.org/2019/07/17/neuron-in-neurofedora-needs-testing.html" target="_blank" title="Share on Facebook"></a></li>
+  <li class="list-inline-item"><a class="fab fa-reddit" href="https://www.reddit.com/submit?url=https%3A//neuroblog.fedoraproject.org/2019/07/17/neuron-in-neurofedora-needs-testing.html&title=NEURON%20in%20NeuroFedora%20needs%20testing" target="_blank" title="Share on Reddit"></a></li>
+  <li class="list-inline-item"><a class="fas fa-mail-bulk" href="mailto:?subject=NEURON%20in%20NeuroFedora%20needs%20testing&amp;body=https%3A//neuroblog.fedoraproject.org/2019/07/17/neuron-in-neurofedora-needs-testing.html" target="_blank" title="Share via E-mail"></a></li>
+</ul>
+      </ul>
+    </header>
+    <div class="content">
+      <center><div class="figure">
+<img alt="NeuroFedora logo" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/NeuroFedoraLogo01.png" style="width: 30%;" />
+<p class="caption"><a class="reference external" href="https://pagure.io/design/issue/602">NeuroFedora logo by Terezahl from the Fedora Design Team</a></p>
+</div>
+</center><p>We have been working on including the <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a> simulator in <a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a> for a
+while now. The build process that <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a> uses has certain peculiarities that
+make it a little harder to build.</p>
+<p>For those that are interested in the technical details, while the main <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a>
+core is built using the standard <code>./configure; make ; make install</code>
+process that cleanly differentiates the &quot;build&quot; and &quot;install&quot; phases, the
+Python bits are built as a &quot;post-install hook&quot;. That is to say, they are built
+after the other bits in the &quot;install&quot; step instead of the &quot;build&quot; step. This
+implies that the build is not quite straightforward and must be slightly
+tweaked to ensure that the <a class="reference external" href="https://docs.fedoraproject.org/en-US/packaging-guidelines/">Fedora packaging guidelines</a> are met.</p>
+<p>After discussing things on this <a class="reference external" href="https://github.com/neuronsimulator/nrn/issues/238">Github issue</a>, the developers,
+<a class="reference external" href="https://github.com/nrnhines">&#64;nrnhines</a> (Michael Hines) and <a class="reference external" href="https://ramcdougal.com/">&#64;ramcdougal</a> (Robert A McDougal) helped me understand the
+complexities of the build process and get it done. They have also mentioned
+that <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a> is now moving to a <a class="reference external" href="https://cmake.org/">CMake</a> based build system and should be simpler
+to work with in the future. <a class="reference external" href="https://cmake.org/">CMake</a> is generally nicer for projects that include
+different languages and build systems.</p>
+<p>After a few hours of work, <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a> is now ready to use in <a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a>. It is
+built with Python 3, and does not currently provide IV and MPI bits. These will
+be worked upon later. Since <a class="reference external" href="https://github.com/INCF/MUSIC">MUSIC</a> is not yet in <a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a>, <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a> does not
+support <a class="reference external" href="https://github.com/INCF/MUSIC">MUSIC</a> either currently. This is also a <a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/28">work in progress</a>.</p>
+<p>I have tested the <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a> build on my machine with a few example simulations
+and it works well, but this cannot be considered exhaustive testing of the
+package. If you have a <a class="reference external" href="https://getfedora.org">Fedora</a> system, please test <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a> and let us know if
+you notice any issues. Here's how.</p>
+<div class="section" id="step-1-set-up-a-fedora-installation">
+<h2>Step 1: Set up a Fedora installation</h2>
+<p><a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a> is based on <a class="reference external" href="https://getfedora.org">Fedora</a>, so the simplest way to use it is to install a
+Fedora Workstation using the live images available on <a class="reference external" href="https://getfedora.org">https://getfedora.org</a>.
+You can either install it on a system or use a virtual machine if you wish.
+<a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a> includes lots of other software for neuroscience also. You can
+learn more in our <a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/software/">documentation</a>.  <a class="reference external" href="https://getfedora.org">Fedora</a>, in
+general, provides lots of other software too. You can search them using the
+<a class="reference external" href="https://apps.fedoraproject.org/packages/s/">Fedora Packages web application</a>.</p>
+</div>
+<div class="section" id="step-2-install-neuron">
+<h2>Step 2: Install NEURON</h2>
+<p>I would recommend updating your system before proceeding using <code>dnf</code> in a
+terminal:</p>
+<pre class="code bash literal-block">
+sudo<span class="w"> </span>dnf<span class="w"> </span>update<span class="w"> </span>--refresh
+</pre>
+<p>Then, you can install <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a>. It is currently in the testing repositories, so
+they will need to be enabled for the command:</p>
+<pre class="code bash literal-block">
+sudo<span class="w"> </span>dnf<span class="w"> </span>--enablerepo<span class="o">=</span>updates-testing<span class="w"> </span>install<span class="w"> </span>neuron<span class="w"> </span>python3-neuron
+</pre>
+</div>
+<div class="section" id="step-3-test-it-out">
+<h2>Step 3: Test it out</h2>
+<p>Test it out with your models. Hopefully, everything will work fine. The <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a>
+documentation is here for those that would like to tinker with it too:
+<a class="reference external" href="https://www.neuron.yale.edu/neuron/docs">https://www.neuron.yale.edu/neuron/docs</a></p>
+</div>
+<div class="section" id="step-4-give-feedback">
+<h2>Step 4: Give feedback</h2>
+<center><div class="figure">
+<img alt="Bodhi logo" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20190716-Bodhi.png" style="width: 30%;" />
+<p class="caption"><a class="reference external" href="https://bodhi.fedoraproject.org">Bodhi</a>, the Fedora Quality Assurance web application.</p>
+</div>
+</center><p>This step is optional, especially if everything works fine. If you experience
+any issues, please do get in touch with us. You can either contact us directly
+using one of our <a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/communicating/">communication channels</a>, or you
+can <strong>give karma</strong> to the update on <a class="reference external" href="https://bodhi.fedoraproject.org">Bodhi</a>. The latter is preferred.</p>
+<p><a class="reference external" href="https://bodhi.fedoraproject.org">Bodhi</a> is the system <a class="reference external" href="https://getfedora.org">Fedora</a> uses for pushing updates to users. In a nutshell:</p>
+<ul class="simple">
+<li>a new version of software is released</li>
+<li>the <a class="reference external" href="https://getfedora.org">Fedora</a> maintainer updates the <a class="reference external" href="https://getfedora.org">Fedora</a> package.</li>
+<li>the maintainer submits the new <a class="reference external" href="https://getfedora.org">Fedora</a> package to <a class="reference external" href="https://bodhi.fedoraproject.org">Bodhi</a></li>
+<li>the package remains in the <code>updates-testing</code> repositories while users
+test it out and provide feedback.</li>
+<li>if the update receives positive feedback (positive karma), it is
+automatically pushed to the <code>updates</code> repository for all users to
+receive the new version.</li>
+<li>if the update receives negative feedback, the new version is not sent out to
+users and the maintainer must fix the reported issues and submit a new
+version of the package for testing again.</li>
+</ul>
+<p>This workflow applies to all <a class="reference external" href="https://getfedora.org">Fedora</a> packages, thus ensuring that there's
+plenty of time for issues to be flagged before the software reaches users.  So,
+if you have a few minutes to spare, please help us by testing these packages
+out. The updates for Fedora 29 and Fedora 30 are both here:
+<a class="reference external" href="https://bodhi.fedoraproject.org/updates/?packages=neuron">https://bodhi.fedoraproject.org/updates/?packages=neuron</a></p>
+<p>Please note that this requires an <a class="reference external" href="https://getfedora.org">Fedora</a> account, since that's the account
+system that links all <a class="reference external" href="https://getfedora.org">Fedora</a> community infrastructure. This Fedora Magazine
+post provides an excellent resource on setting up a <a class="reference external" href="https://getfedora.org">Fedora</a> Account:
+<a class="reference external" href="https://fedoramagazine.org/getting-set-up-with-fedora-project-services/">https://fedoramagazine.org/getting-set-up-with-fedora-project-services/</a></p>
+<p>Detailed information on testing updates in <a class="reference external" href="https://getfedora.org">Fedora</a> can be found here on the
+Quality Assurance (QA) team's documentation:
+<a class="reference external" href="https://fedoraproject.org/wiki/QA:Updates_Testing">https://fedoraproject.org/wiki/QA:Updates_Testing</a></p>
+<hr class="docutils" />
+<p><a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a> is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us <a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help">here</a>.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.</p>
+</div>
+
+    </div>
+  </article>
+  <hr>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function() {
+      this.page.url = 'https://neuroblog.fedoraproject.org/2019/07/17/neuron-in-neurofedora-needs-testing.html';
+      this.page.identifier = 'neuron-in-neurofedora-needs-testing';
+    };
+    (function() {
+      var d = document;
+      var s = d.createElement('script');
+      s.src = '//neurofedora.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript class="text-muted">
+    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+  </noscript>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://docs.fedoraproject.org/en-US/project/code-of-conduct/" title="Code of Conduct">Code of Conduct</a></li>
+      <li class="list-inline-item"><a href="https://neuroblog.fedoraproject.org/authors.html" title="Authors">Authors</a></li>
+    <li class="list-inline-item"><a href="https://neuroblog.fedoraproject.org/archives.html" title="Archives">Archives</a></li>
+    <li class="list-inline-item"><a href="https://neuroblog.fedoraproject.org/categories.html" title="Categories">Categories</a></li>
+      <li class="list-inline-item"><a href="https://neuroblog.fedoraproject.org/tags.html" title="Tags">Tags</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    All content on this blog is made available under <a href="http://creativecommons.org/licenses/by-sa/4.0/legalcode" title="CC-By-SA 4.0 license" targget="_blank">CC-By-SA 4.0</a> unless specifically noted | Generated by <a href="https://github.com/getpelican/pelican" title="Pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" title="Pelican Alchemy Theme" target="_blank">&#x2728;</a>
+  </p>
+</div>    </div>
+  </footer>
+</body>
+
+</html>
